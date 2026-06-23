@@ -1,0 +1,77 @@
+-----------------------------------------------------------------
+-- CREATE TABLE -> SGAS.CASS_UPDATE
+-----------------------------------------------------------------
+
+--ALTER TABLE SGAS.CASS_UPDATE DROP PRIMARY KEY CASCADE;
+--DROP TABLE SGAS.CASS_UPDATE CASCADE CONSTRAINTS;
+
+CREATE TABLE SGAS.CASS_UPDATE
+(
+  CASS_UPDATE_ID          NUMBER(10),
+  PAYEE_TYPE              VARCHAR2(1 CHAR)      NOT NULL,
+  PAYEE_REF_ID            NUMBER(10)            NOT NULL,
+  ORIGINAL_SORT_CODE      VARCHAR2(6 CHAR)      NOT NULL,
+  ORIGINAL_ACCOUNT_NO     VARCHAR2(10 CHAR)     NOT NULL,
+  NEW_SORT_CODE           VARCHAR2(6 CHAR)      NOT NULL,
+  NEW_ACCOUNT_NO          VARCHAR2(10 CHAR)     NOT NULL,
+  AOSN                    NUMBER(10),
+  PAYEE_NAME              VARCHAR2(65 BYTE),
+  PAYEE_PAYMENT_ID        NUMBER(10),
+  REPORT_GENERATION_DATE  DATE,
+  UPDATED_ON              DATE
+);
+
+CREATE UNIQUE INDEX SGAS.CASS_UPDATE_PK ON SGAS.CASS_UPDATE(CASS_UPDATE_ID);
+
+ALTER TABLE SGAS.CASS_UPDATE ADD (
+  CONSTRAINT CASS_UPDATE_PK
+  PRIMARY KEY
+  (CASS_UPDATE_ID)
+  USING INDEX SGAS.CASS_UPDATE_PK
+  ENABLE VALIDATE);
+
+-----------------------------------------------------------------
+-- CREATE SEQUENCE -> SGAS.CASS_UPDATE_SEQ
+-----------------------------------------------------------------
+
+--DROP SEQUENCE SGAS.CASS_UPDATE_SEQ;
+
+CREATE SEQUENCE SGAS.CASS_UPDATE_SEQ
+  START WITH 261
+  MAXVALUE 9999999999
+  MINVALUE 1
+  NOCYCLE
+  CACHE 20
+  NOORDER;
+
+-----------------------------------------------------------------
+-- CREATE TRIGGER -> SGAS.CASS_UPDATE_TRG
+-----------------------------------------------------------------  
+
+CREATE OR REPLACE TRIGGER SGAS.CASS_UPDATE_TRG
+BEFORE INSERT
+ON SGAS.CASS_UPDATE
+REFERENCING NEW AS New OLD AS Old
+FOR EACH ROW
+BEGIN
+  :new.CASS_UPDATE_ID := CASS_UPDATE_SEQ.nextval;
+END CASS_UPDATE_TRG;
+/
+
+-----------------------------------------------------------------
+-- CREATE TRIGGER -> SGAS.TRIG_CASS_SET_UPDATED_ON
+-----------------------------------------------------------------  
+
+CREATE OR REPLACE TRIGGER SGAS.TRIG_CASS_SET_UPDATED_ON
+BEFORE INSERT
+ON SGAS.CASS_UPDATE
+REFERENCING NEW AS New OLD AS Old
+FOR EACH ROW
+DECLARE
+BEGIN
+   :NEW.UPDATED_ON := SYSDATE;
+   EXCEPTION
+     WHEN OTHERS THEN
+       RAISE;
+END TRIG_CASS_SET_UPDATED_ON;
+/

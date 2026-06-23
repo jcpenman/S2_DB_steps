@@ -1,0 +1,161 @@
+CREATE TABLE SGAS.QUAL_TYPES
+(
+  DESCRIPTION  VARCHAR2(50 BYTE)
+);
+ 
+ 
+
+INSERT INTO SGAS.QUAL_TYPES (DESCRIPTION)
+     VALUES ('ACCA');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('AD_DIPLOMA');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('ASSOC');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('ATQ');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('B.TECH.HND');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('BA');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('BACHELOR');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('BED');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('BENG');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('BSC');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('BSCBA');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('BTECH');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('CERT');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('CIMA');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('COMB_DEG');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('CONV_CRS');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('DIPLOMA');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('DIP_HE');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('DLP');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('DPHIL');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('EU_CRS');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('HEALTH');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('HNC');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('HNC/HND');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('HND');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('HND/BSC');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('LIC_IN_THE');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('LLB');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('LLM');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('MA');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('MASTER');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('MB_CLIN');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('MB_PRECLIN');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('MENG');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('MLITT');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('MMUS');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('MPHIL');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('MRES');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('MST');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('MTH');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('NVQ');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('OTHER');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('PAMS');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('PGCE');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('PGCERT');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('PGDIP');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('PGMA');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('PGMSC');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('PG_ADV_DIP');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('PG_AD_ED');
+
+INSERT INTO SGAS.QUAL_TYPES (description)
+     VALUES ('PHD');
+
+COMMIT;

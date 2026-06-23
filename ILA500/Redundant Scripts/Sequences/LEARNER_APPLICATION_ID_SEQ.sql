@@ -1,0 +1,33 @@
+-- SEQUENCE SCRIPT FOR PK ON LEARNER_APPLICATION TABLE
+-- Author R. Hunter.(SAAS) 
+--
+-- MODIFICATION HISTORY:
+-- Ref      Date        Author                  Desc.
+-- 1.0      03.07.08    R Hunter (SAAS)         Initial Version.
+--
+-- Configuration Management:
+-- $HeadURL: svn://192.168.186.3:3690/projects/sgas/tradev/svnRepositories/steps/trunk/Database/steps/ILA500/Sequences/LEARNER_APPLICATION_ID_SEQ.sql $
+-- $Author: $
+-- $Date: 2009-03-09 11:57:42 +0000 (Mon, 09 Mar 2009) $
+-- $Revision: 2535 $
+DROP SEQUENCE LEARNER_APPLICATION_ID_seq
+/
+
+--
+-- LEARNER_APPLICATION_ID_seq  (Sequence) 
+--
+CREATE SEQUENCE LEARNER_APPLICATION_ID_seq
+  START WITH 1
+  MAXVALUE 999999999999
+  MINVALUE 1
+  NOCYCLE
+  NOCACHE
+  NOORDER
+/
+
+
+CREATE OR REPLACE TRIGGER trig_LEARNER_APPLICATION_seq BEFORE INSERT ON LEARNER_APPLICATION
+FOR EACH ROW
+BEGIN
+SELECT LEARNER_APPLICATION_ID_seq.NEXTVAL, SYSDATE into :new.LEARNER_APPLICATION_ID, :new.DATE_RECORD_CREATED FROM dual;
+END;

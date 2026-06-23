@@ -1,0 +1,7 @@
+SET DEFINE OFF;
+Insert into ACCOUNT_LOCK_REASON
+   (DESCRIPTION, LAST_UPDATED_BY, LAST_UPDATED_ON, IS_ACTIVE)
+ Values
+   ('Timeout workaround', 'SGAS', SYSDATE, 'Y');
+
+COMMIT;

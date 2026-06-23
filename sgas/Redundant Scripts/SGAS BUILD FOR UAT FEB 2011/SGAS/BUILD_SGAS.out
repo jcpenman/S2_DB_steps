@@ -1,0 +1,4885 @@
+
+SYSDATE  
+---------
+25-FEB-11
+
+
+1 row selected.
+***************************************************************************
+***************************************************************************
+*************** BUILD REFERENCE DATA TABLES *******************************
+***************************************************************************
+***************************************************************************
+*** Creating tables/AWARD_REF_DATA.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/BEN_INCOME_STATUS.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/BEN_INCOME_TYPE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/CASE_STATUS.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/CONTACT_RELATIONSHIP.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/COUNTRY.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Trigger created.
+No errors.
+Synonym dropped.
+Synonym created.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/DEARING_STATUS.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/DEBT_STATUS.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/DISABILITY_TYPE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/DOCUMENT_TYPE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/EMPLOYMENT_STATUS.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/LOAN_STATUS.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/LOCATION.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/MARITAL_STATUS.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/NO_NINO_REASON.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/OTHER_LOAN_TYPE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/REFERENCE_DATA.sql
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Table altered.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/REFERENCE_DOMAINS.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Table altered.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/REFERENCE_TYPES.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Table altered.
+Table altered.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/RESIDENCE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/RESIDENCE_TYPE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/SCHEME_TYPE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/SPOUSE_TYPE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/SUPP_GRANT_RELATION.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/TITLE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/Z_REFUSAL_STATUS.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+***************************************************************************
+******************** BUILD STUDENT TABLES *********************************
+***************************************************************************
+***************************************************************************
+***************************************************************************
+*** Creating tables/STUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Sequence dropped.
+Sequence created.
+Grant complete.
+Trigger created.
+Trigger created.
+No errors.
+Trigger created.
+No errors.
+Synonym dropped.
+Synonym created.
+Grant complete.
+ORA-12002: there is no materialized view log on table "SGAS"."STUD"
+Snapshot log created.
+Sequence dropped.
+Sequence created.
+Synonym dropped.
+Synonym created.
+Grant complete.
+***************************************************************************
+*** Creating tables/BENEFACTOR.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Index created.
+Index created.
+Trigger created.
+No errors.
+Trigger created.
+No errors.
+Table altered.
+Table altered.
+Sequence dropped.
+Sequence created.
+Synonym dropped.
+Synonym created.
+Grant complete.
+ORA-12002: there is no materialized view log on table "SGAS"."BENEFACTOR"
+Snapshot log created.
+***************************************************************************
+*** Creating tables/BENEFACTOR_DEPENDANT.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Table altered.
+Table altered.
+Sequence dropped.
+Sequence created.
+Synonym dropped.
+Synonym created.
+Grant complete.
+***************************************************************************
+*** Creating tables/BENEFACTOR_INCOME.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+***************************************************************************
+*** Creating tables/BENEFACTOR_RELATION.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/JA_CASE.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Table altered.
+Table altered.
+Sequence dropped.
+Sequence created.
+Trigger created.
+***************************************************************************
+*** Creating tables/STUD_APP_PROG.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Index created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Grant complete.
+ORA-12002: there is no materialized view log on table "SGAS"."STUD_APP_PROG"
+Snapshot log created.
+***************************************************************************
+*** Creating tables/STUD_AWARD_TYPE.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/STUD_CONT_DETAILS.sql
+Table dropped.
+Table created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+ORA-12002: there is no materialized view log on table "SGAS"."STUD_CONT_DETAILS"
+Snapshot log created.
+***************************************************************************
+*** Creating tables/STUD_CRSE_YEAR.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+ORA-12002: there is no materialized view log on table "SGAS"."STUD_CRSE_YEAR"
+Snapshot log created.
+Sequence dropped.
+Sequence created.
+Synonym dropped.
+Synonym created.
+Grant complete.
+***************************************************************************
+*** Creating tables/STUD_DEPENDANT.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Index created.
+Index created.
+Index created.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Sequence dropped.
+Sequence created.
+Trigger created.
+Trigger created.
+No errors.
+Grant complete.
+***************************************************************************
+*** Creating tables/STUD_HOME_ADDR.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Trigger created.
+No errors.
+Trigger created.
+No errors.
+Table altered.
+Table altered.
+Table altered.
+ORA-12002: there is no materialized view log on table "SGAS"."STUD_HOME_ADDR"
+Snapshot log created.
+***************************************************************************
+*** Creating tables/STUD_NOMINEE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+Trigger created.
+Synonym dropped.
+Synonym created.
+Table altered.
+Table altered.
+Table altered.
+Commit complete.
+***************************************************************************
+*** Creating tables/STUD_NOTES.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Commit complete.
+***************************************************************************
+*** Creating tables/STUD_RATE.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Index created.
+Table altered.
+Table altered.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/STUD_SESSION.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+ORA-12002: there is no materialized view log on table "SGAS"."STUD_SESSION"
+Snapshot log created.
+Sequence dropped.
+Sequence created.
+Synonym dropped.
+Synonym created.
+Grant complete.
+ORA-01917: user or role 'ILA500' does not exist
+***************************************************************************
+*** Creating tables/STUD_TERM_ADDR.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Trigger created.
+No errors.
+Trigger created.
+No errors.
+Trigger created.
+No errors.
+ORA-12002: there is no materialized view log on table "SGAS"."STUD_TERM_ADDR"
+Snapshot log created.
+***************************************************************************
+*** Creating tables/STUD_TRACK.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Table altered.
+***************************************************************************
+*** Creating tables/STUD_TRAV_PROG.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Index created.
+Index created.
+Table altered.
+Trigger created.
+Grant complete.
+ORA-12002: there is no materialized view log on table "SGAS"."STUD_TRAV_PROG"
+Snapshot log created.
+***************************************************************************
+***************************************************************************
+********************* BUILD DSA TABLES ************************************
+***************************************************************************
+***************************************************************************
+*** Creating tables/DSA_ALLOWANCE.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+Commit complete.
+***************************************************************************
+*** Creating tables/DSA_APPLICATION.sql
+Table dropped.
+Table created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+Commit complete.
+***************************************************************************
+*** Creating tables/DSA_ASSESSMENT_CENTRE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/DSA_CATEGORY.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/DSA_PAYMENT.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+Commit complete.
+***************************************************************************
+*** Creating tables/DSA_PAYMENT_STATUS.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/DSA_REFERRAL_REASON.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/DSA_REJECTION_REASON.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/DSA_STUDENT_TYPE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/DSA_TYPE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+***************************************************************************
+********************* BUILD AWARD TABLES **********************************
+***************************************************************************
+***************************************************************************
+***************************************************************************
+*** Creating tables/AWARD.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Sequence dropped.
+Sequence created.
+Synonym dropped.
+Synonym created.
+Grant complete.
+***************************************************************************
+*** Creating tables/AWARD_INSTALMENT.sql
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Index created.
+Index created.
+Trigger created.
+No errors.
+Sequence dropped.
+Sequence created.
+Trigger created.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+***************************************************************************
+*** Creating tables/ADJUST.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Index created.
+Index created.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+***************************************************************************
+*** Creating tables/APPLIC_REG.sql
+Table dropped.
+Table created.
+Index created.
+Index created.
+Index created.
+Table altered.
+Sequence dropped.
+Sequence created.
+Grant complete.
+Trigger created.
+***************************************************************************
+*** Creating tables/BATCH_RECALC.sql
+Table dropped.
+Table created.
+Synonym dropped.
+Synonym created.
+***************************************************************************
+*** Creating tables/CRSE_TERM_CHANGE.sql
+Table dropped.
+Table created.
+Synonym dropped.
+Synonym created.
+***************************************************************************
+*** Creating tables/INST_TERM_CHANGE.sql
+Table dropped.
+Table created.
+Synonym dropped.
+Synonym created.
+***************************************************************************
+*** Creating tables/INST_CONT_DETAILS.sql
+Table dropped.
+Table created.
+Table altered.
+Synonym dropped.
+Synonym created.
+***************************************************************************
+*** Creating tables/INST_CONT_EMAIL.sql
+Table dropped.
+Table created.
+Table altered.
+Synonym dropped.
+Synonym created.
+***************************************************************************
+***************************************************************************
+******************** BUILD PAYMENT TABLES *********************************
+***************************************************************************
+***************************************************************************
+***************************************************************************
+*** Creating tables/ADI_JOURNAL.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Table altered.
+Trigger created.
+No errors.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Sequence dropped.
+Sequence created.
+***************************************************************************
+*** Creating tables/FEE_LOAN_TYPE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/FEE_PAYMENT_DATE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Trigger created.
+Grant complete.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+***************************************************************************
+*** Creating tables/FINANCE_REVERSAL_JOURNAL.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Trigger created.
+No errors.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+***************************************************************************
+*** Creating tables/PAYEE.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Table altered.
+Trigger created.
+No errors.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+***************************************************************************
+*** Creating tables/PAYEE_PAYMENT.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Trigger created.
+No errors.
+Grant complete.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+***************************************************************************
+*** Creating tables/PAYMENT_ERRORS.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Trigger created.
+No errors.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+***************************************************************************
+*** Creating tables/PAYMENT_INSTALMENT.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Trigger created.
+No errors.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+***************************************************************************
+*** Creating tables/PAYMENT_FILES_UNPROCESSED.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+***************************************************************************
+*** Creating tables/PAYMENT_FILE_REF.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/PAYMENT_METHOD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/NON_AWARD_PAYMENT_DATE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Trigger created.
+Grant complete.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+***************************************************************************
+*** Creating tables/SCOAP_BATCHES.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/SCOAP_BATCHES_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/SCOAP_JOURNAL_LINES.sql
+Table dropped.
+Table created.
+Comment created.
+Index created.
+Table altered.
+Table altered.
+Table altered.
+***************************************************************************
+*** Creating tables/SCOAP_PAYMENTS.sql
+Table dropped.
+Table created.
+Index created.
+Index created.
+Table altered.
+Table altered.
+***************************************************************************
+***************************************************************************
+********************* BUILD EMPLOYEE TABLES *******************************
+***************************************************************************
+***************************************************************************
+*** Creating tables/EMPLOYEE.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+***************************************************************************
+*** Creating tables/EMPLOYEE_ACTIVITY.sql
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Table altered.
+***************************************************************************
+*** Creating tables/EMPLOYEE_CASES.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Sequence dropped.
+Sequence created.
+Trigger created.
+Table altered.
+Table altered.
+***************************************************************************
+*** Creating tables/EMPLOYEE_LOCKS.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Table altered.
+Trigger created.
+***************************************************************************
+***************************************************************************
+***************************************************************************
+********************* BUILD MISC TABLES ***********************************
+***************************************************************************
+***************************************************************************
+*** Creating tables/AUTHENTICATE_STUD.sql
+Table dropped.
+Table created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+***************************************************************************
+*** Creating tables/COMPLETE_WEB_APPLICATIONS.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Index created.
+Synonym dropped.
+Synonym created.
+Table altered.
+ORA-12002: there is no materialized view log on table "SGAS"."COMPLETE_WEB_APPLICATIONS"
+Snapshot log created.
+***************************************************************************
+*** Creating tables/COMPLETED_SHWAP.sql
+Table altered.
+Table dropped.
+Table created.
+***************************************************************************
+*** Creating tables/COMPLETED_TEC.sql
+Table dropped.
+Table created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Table altered.
+Synonym dropped.
+Synonym created.
+Grant complete.
+***************************************************************************
+*** Creating tables/CONFIG_DATA.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+ORA-01917: user or role 'ILA500' does not exist
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row deleted.
+1 row created.
+1 row deleted.
+1 row created.
+1 row deleted.
+1 row created.
+1 row deleted.
+1 row created.
+1 row deleted.
+1 row created.
+1 row deleted.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/CONFIG_EDM.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Table altered.
+Synonym dropped.
+Synonym created.
+Grant complete.
+ORA-01917: user or role 'ILA500' does not exist
+Grant complete.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/CORRES.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Index created.
+Index created.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+***************************************************************************
+*** Creating tables/CORRES_ATTACH.sql
+Table dropped.
+Table created.
+Index created.
+Table altered.
+***************************************************************************
+*** Creating tables/DLA_REQUEST.sql
+Table dropped.
+Table created.
+Synonym dropped.
+Synonym created.
+***************************************************************************
+*** Creating tables/DUP_BANK_REASON.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/JOINT_APP_RELATION.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/LABEL_PRINT.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+***************************************************************************
+*** Creating tables/NMSB_CONTINUATION_REASON.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/NMSB_SPEC_ARR.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Table altered.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+***************************************************************************
+*** Creating tables/NOMINEE.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Sequence dropped.
+Sequence created.
+Grant complete.
+Trigger created.
+Synonym dropped.
+Synonym created.
+Table altered.
+***************************************************************************
+*** Creating tables/PASSWORD_LETTER_REQUEST.sql
+Table dropped.
+Table created.
+***************************************************************************
+*** Creating tables/PGCE_SUBJECT.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Trigger created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/POSTCODE_ARCHIVE.sql
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+***************************************************************************
+*** Creating tables/PRISONER_POSTCODES.sql
+Table dropped.
+Table created.
+Comment created.
+Index created.
+Synonym dropped.
+Synonym created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/PT_STUD_DEPENDANT.sql
+Table dropped.
+Table created.
+Index created.
+Index created.
+Table altered.
+***************************************************************************
+*** Creating tables/PT_STUD_INCOME.sql
+Table dropped.
+Table created.
+Index created.
+Index created.
+Index created.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+***************************************************************************
+*** Creating tables/STD_LETTERS.sql
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Synonym dropped.
+Synonym created.
+***************************************************************************
+*** Creating tables/STEPS_LOCKS.sql
+Table altered.
+Table dropped.
+Table created.
+***************************************************************************
+*** Creating tables/STEPS_QA_DATA.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Trigger created.
+No errors.
+Table altered.
+1 row created.
+Commit complete.
+***************************************************************************
+*** Creating tables/TELEPHONY.sql
+Table dropped.
+Table created.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+***************************************************************************
+*** Creating tables/TELEPHONY_MIS.sql
+Table dropped.
+Table created.
+Index created.
+Grant complete.
+Grant complete.
+***************************************************************************
+***************************************************************************
+***************************************************************************
+********************* BUILD AUDIT TABLES **********************************
+***************************************************************************
+***************************************************************************
+***************************************************************************
+*** Creating tables/ADI_JOURNAL_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/AUTHENTICATE_STUD_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/AWARD_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/AWARD_INSTALMENT_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/AWARD_REF_DATA_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/BEN_INCOME_STATUS_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/BEN_INCOME_TYPE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/BENEFACTOR_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/BENEFACTOR_DEPENDANT_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/BENEFACTOR_INCOME_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/BENEFACTOR_RELATION_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/CASE_STATUS_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/CONTACT_RELATIONSHIP_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/COUNTRY_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/DEARING_STATUS_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/DEBT_STATUS_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/DISABILITY_TYPE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/DSA_ALLOWANCE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/DSA_APPLICATION_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/DSA_ASSESSMENT_CENTRE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/DSA_CATEGORY_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/DSA_PAYMENT_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/DSA_PAYMENT_STATUS_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/DSA_REFERRAL_REASON_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/DSA_REJECTION_REASON_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/DSA_STUDENT_TYPE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/DSA_TYPE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/DUP_BANK_REASON_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/EMPLOYMENT_STATUS_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/FEE_LOAN_TYPE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/FEE_PAYMENT_DATE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/FINANCE_REVERSAL_JOURNAL_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/JA_CASE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/JOINT_APP_RELATION_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/LOAN_STATUS_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/LOCATION_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/MARITAL_STATUS_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/NOMINEE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/NO_NINO_REASON_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/OTHER_LOAN_TYPE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/PGCE_SUBJECT_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/RESIDENCE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/RESIDENCE_TYPE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/SCHEME_TYPE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/SPOUSE_TYPE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/STEPS_QA_DATA_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/STUD_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/STUD_APP_PROG_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/STUD_CRSE_YEAR_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/STUD_DEPENDANT_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/STUD_HOME_ADDR_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/STUD_NOMINEE_AUD.sql
+ORA-00903: invalid table name
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/STUD_SESSION_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/STUD_TERM_ADDR_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/SUPP_GRANT_RELATION_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/TITLE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/Z_REFUSAL_STATUS_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/PAYEE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/PAYEE_PAYMENT_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/PAYMENT_ERRORS_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/PAYMENT_INSTALMENT_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/PAYMENT_METHOD_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/NON_AWARD_PAYMENT_DATE_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+*** Creating tables/SCOAP_BATCHES_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Index created.
+Table altered.
+Sequence dropped.
+Sequence created.
+Grant complete.
+***************************************************************************
+********************* BUILD EDM TABLES ************************************
+***************************************************************************
+***************************************************************************
+*** Creating tables/EDM_APP_LABELS.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Index created.
+Table altered.
+Table altered.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+***************************************************************************
+*** Creating tables/EDM_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Index created.
+Index created.
+Index created.
+Table altered.
+Table altered.
+Table altered.
+Synonym dropped.
+Synonym created.
+Grant complete.
+Sequence dropped.
+Sequence created.
+Synonym dropped.
+Synonym created.
+Grant complete.
+***************************************************************************
+*** Creating tables/EDM_EVENT_AUD.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Index created.
+Table altered.
+Table altered.
+Synonym dropped.
+Synonym created.
+Grant complete.
+Sequence dropped.
+Sequence created.
+Synonym dropped.
+Synonym created.
+Grant complete.
+***************************************************************************
+*** Creating tables/EDM_EVENT_AUD_ACTION.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+Synonym dropped.
+Synonym created.
+Grant complete.
+***************************************************************************
+*** Creating tables/EDM_IMAGES.sql
+Table dropped.
+Table created.
+Index created.
+Index created.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+Table altered.
+***************************************************************************
+*** Creating tables/EDM_IMAGES_SMS.sql
+Table dropped.
+Table created.
+Index created.
+***************************************************************************
+*** Creating tables/EDM_IMAGES_STATS.sql
+Table altered.
+Table dropped.
+Table created.
+Index created.
+Table altered.
+***************************************************************************
+*** Creating tables/EDM_NOTES.sql
+Table dropped.
+Table created.
+Index created.
+
+************************************************************************************************
+********************************* VIEWS ********************************************************
+**************************** Named-query views only ********************************************
+********************** materialised views built seperately *************************************
+************************************************************************************************
+************************************************************************************************
+
+*** Running views/AWARD_NOTIFICATION.sql
+View created.
+View created.
+View created.
+View created.
+
+*** Running views/CATEGORY.sql
+View altered.
+View dropped.
+View created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+View altered.
+Grant complete.
+
+*** Running views/CRSE
+View dropped.
+View created.
+
+*** Running views/CRSE_SESSION
+View dropped.
+View created.
+
+*** Running views/CRSE_TERM
+View dropped.
+View created.
+
+*** Running views/CRSE_YEAR
+View dropped.
+View created.
+
+*** Running views/ERR_MESS.sql
+View dropped.
+View created.
+Comment created.
+ORA-00955: name is already used by an existing object
+
+*** Running views/INST
+View dropped.
+View created.
+
+*** Running views/INST_TERM
+View dropped.
+View created.
+
+*** Running views/SCOT_POSTCODES.sql
+View dropped.
+View created.
+Comment created.
+Comment created.
+
+*** Running views/SESSION_CONTRIB
+View dropped.
+View created.
+
+*** Running views/SESSION_XLOAN_YSB_PAYABLE
+View dropped.
+View created.
+
+*** Running views/STUD_RATES.sql
+View dropped.
+View created.
+
+*** Running views/SUPPORT_CALCULATOR_RATES
+View dropped.
+View created.
+
+*** Running views/UCAS
+View dropped.
+View created.
+
+*** Running views/VALIDATION
+View dropped.
+View created.
+
+*** Running views/VU_HISTORY
+View dropped.
+View created.
+
+************************************************************************************************
+************************************************************************************************
+*************************** GRASS_SYNONYMS.sql *************************************************
+************************************************************************************************
+************************************************************************************************
+Synonym dropped.
+Synonym created.
+Synonym dropped.
+Synonym created.
+Synonym dropped.
+Synonym created.
+Synonym dropped.
+Synonym created.
+Synonym dropped.
+Synonym created.
+Synonym dropped.
+Synonym created.
+Synonym dropped.
+Synonym created.
+************************************************************************************************
+************************************************************************************************
+*************************** WEB_SYNONYMS.sql ***************************************************
+************************************************************************************************
+************************************************************************************************
+Synonym dropped.
+Synonym created.
+Synonym dropped.
+Synonym created.
+Synonym dropped.
+Synonym created.
+Synonym dropped.
+Synonym created.
+Synonym dropped.
+Synonym created.
+Synonym dropped.
+Synonym created.
+Synonym dropped.
+Synonym created.
+************************************************************************************************
+************************************************************************************************
+******************************* PACKAGES *******************************************************
+************************************************************************************************
+************************************************************************************************
+
+*** Build packages
+
+*** CHANGE_AUDIT
+Package created.
+Package body created.
+Grant complete.
+ORA-00955: name is already used by an existing object
+
+*** EDM_INDEX
+Package created.
+Package body created.
+
+***
+Package created.
+Package body created.
+Grant complete.
+
+*** ERROR
+Package created.
+Package body created.
+
+***
+Package created.
+Package body created.
+
+***
+Package created.
+Package body created.
+
+*** PK_AWARD_NOTIFICATION
+Package created.
+Package body created.
+
+*** PK_CHANGE_DETAILS
+Package created.
+Package body created.
+
+*** PK_PAYMENTS
+Package created.
+Package body created.
+
+*** PK_SHORT_APPS
+Package created.
+Package body created.
+
+*** PK_SHORT_APPSGRASS
+Package created.
+Package body created.
+
+*** PK_SHORT_APPSNMSB
+Package created.
+Package body created.
+
+*** PK_SHORT_APPS_GRASS_NMSB
+Package created.
+Package body created.
+
+*** PK_STEPS_AUD
+Package created.
+Package body created.
+
+*** PK_STEPS_CHANGES
+Package created.
+Package body created.
+
+*** PK_STEPS_REPORTS
+Package created.
+Package body created.
+
+*** PK_STEPS_TO_GRASS
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_AWARD
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_BENE_DETS
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_CASENOTES
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_COURSE_DETS
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_DOC_REG
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_DSA
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_EDM
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_GRASS_DOC_REG
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_GRASS_INSTALMENTS
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_GRASS_JOINT_APP
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_GRASS_SUPP_GRANTS
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_HISTORY
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_INCOME
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_INSTALMENTS
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_JOINT_APPLICATION
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_LOAN
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_MAINTAINDSAALLOW
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_MAINTAINNOMINEE
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_MAINTAINQA
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_MANUAL_PAYMENTS
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_MANUAL_REG
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_NMSB_PLACEMENT_EXP
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_PAYMENTS_SHARED
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_RECORDLOCKING
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_SHARED
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_SHELL_LETTERS
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_STUDY_ABROAD
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_STUD_DETS
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_SUMMARY
+Package created.
+Package body created.
+
+*** PK_STEPS_UI_SUPP_GRANTS
+Package created.
+Package body created.
+
+*** PK_STEPS_UTILS
+Package created.
+Package body created.
+
+*** PK_STEPS_WEB
+Package created.
+Package body created.
+Grant complete.
+
+*** RULES_PROC_RECALC
+Package created.
+Package body created.
+
+*** SCRIPTEX
+Package created.
+Package body created.
+Grant complete.
+
+*** SHORTENED_APPLICATION_WEB_ST
+Package created.
+ORA-24344: success with compilation error
+7/1     PL/SQL: ORA-00942: table or view does not exist7/1     PL/SQL: SQL Statement ignored
+
+*** TELEPHONY_SUPPORT
+Package created.
+Package body created.
+Grant complete.
+ORA-00955: name is already used by an existing object
+************************************************************************************************
+************************************************************************************************
+********************************* JOBS *********************************************************
+************************************************************************************************
+************************************************************************************************
+@BUILD_JOBS.sql
+************************************************************************************************
+************************************************************************************************
+************************* REFERENTIAL CONSTRAINTS **********************************************
+************************************************************************************************
+************************************************************************************************
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+Table altered.
+ORA-02275: such a referential constraint already exists in the table
+Table altered.
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+Table altered.
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+Table altered.
+ORA-02275: such a referential constraint already exists in the table
+Table altered.
+Table altered.
+Table altered.
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+Table altered.
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+Table altered.
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+Table altered.
+Table altered.
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+Table altered.
+Table altered.
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+Table altered.
+ORA-02275: such a referential constraint already exists in the table
+Table altered.
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+Table altered.
+ORA-02275: such a referential constraint already exists in the table
+ORA-02275: such a referential constraint already exists in the table
+Table altered.
+ORA-02275: such a referential constraint already exists in the table
+Build Completed
+Commit complete.

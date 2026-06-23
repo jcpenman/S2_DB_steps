@@ -1,0 +1,36 @@
+-- Reference data
+-- Table: TITLE 
+--
+-- MODIFICATION HISTORY:
+-- Ref      Date        Author                  Desc.
+--          20.06.08    A Bowman (SAAS)         Initial Version.
+--
+-- Configuration Management:
+-- $HeadURL: 
+-- $Author: 
+-- $Date: 
+-- $Revision: 
+
+INSERT INTO TITLE (TITLE_ID,DESCRIPTION) 
+VALUES 
+(1,'MR');
+INSERT INTO TITLE (TITLE_ID,DESCRIPTION) 
+VALUES 
+(2,'MRS');
+INSERT INTO TITLE (TITLE_ID,DESCRIPTION) 
+VALUES 
+(3,'MS');
+INSERT INTO TITLE (TITLE_ID,DESCRIPTION) 
+VALUES 
+(4,'MISS');
+INSERT INTO TITLE (TITLE_ID,DESCRIPTION) 
+VALUES 
+(5,'DR');
+INSERT INTO TITLE (TITLE_ID,DESCRIPTION) 
+VALUES 
+(6,'PROFESSOR');
+INSERT INTO TITLE (TITLE_ID,DESCRIPTION) 
+VALUES 
+(7,'OTHER');
+commit;
+ 

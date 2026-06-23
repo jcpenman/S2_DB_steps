@@ -1,0 +1,78 @@
+-- Create table script.
+--
+-- MODIFICATION HISTORY
+-- Ref.     Date            Author                          Desc.
+--          08/01/2008  S Durkin (Sopra UK)     Initial Version
+--
+-- Configuration Management:
+-- $HeadURL: svn://192.168.186.3:3690/projects/sgas/tradev/svnRepositories/steps/trunk/Database/steps/edm/tables/TMP_EDM_MESSAGE_LOG.sql $
+-- $Author: $
+-- $Date: 2010-01-19 09:45:47 +0000 (Tue, 19 Jan 2010) $
+-- $Revision: 4600 $
+
+DROP TABLE EDM.TMP_EDM_MESSAGE_LOG CASCADE CONSTRAINTS
+/
+
+--
+-- TMP_EDM_MESSAGE_LOG  (Table) 
+--
+CREATE TABLE EDM.TMP_EDM_MESSAGE_LOG
+(
+  OBJECT_ID     VARCHAR2(44 BYTE)               NOT NULL,
+  MESSAGE_TEXT  VARCHAR2(1000 BYTE)             NOT NULL,
+  MESSAGE_DATE  DATE                            NOT NULL
+)
+TABLESPACE USERS
+PCTUSED    40
+PCTFREE    10
+INITRANS   1
+MAXTRANS   255
+STORAGE    (
+            INITIAL          500K
+            NEXT             500K
+            MINEXTENTS       1
+            MAXEXTENTS       99
+            PCTINCREASE      1
+            FREELISTS        1
+            FREELIST GROUPS  1
+            BUFFER_POOL      DEFAULT
+           )
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING
+/
+
+--
+-- Administer grants
+-- 
+GRANT ALTER ON EDM.TMP_EDM_MESSAGE_LOG TO PUBLIC
+/
+
+GRANT DELETE ON EDM.TMP_EDM_MESSAGE_LOG TO PUBLIC
+/
+
+GRANT INDEX ON EDM.TMP_EDM_MESSAGE_LOG TO PUBLIC
+/
+
+GRANT INSERT ON EDM.TMP_EDM_MESSAGE_LOG TO PUBLIC
+/
+
+GRANT DEBUG ON EDM.TMP_EDM_MESSAGE_LOG TO PUBLIC
+/
+
+GRANT UPDATE ON EDM.TMP_EDM_MESSAGE_LOG TO PUBLIC
+/
+
+GRANT REFERENCES ON EDM.TMP_EDM_MESSAGE_LOG TO PUBLIC
+/
+
+GRANT ON COMMIT REFRESH ON EDM.TMP_EDM_MESSAGE_LOG TO PUBLIC
+/
+
+GRANT QUERY REWRITE ON EDM.TMP_EDM_MESSAGE_LOG TO PUBLIC
+/
+
+GRANT SELECT ON EDM.TMP_EDM_MESSAGE_LOG TO PUBLIC
+/

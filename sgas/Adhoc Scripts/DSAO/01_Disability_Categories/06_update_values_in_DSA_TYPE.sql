@@ -1,0 +1,8 @@
+-- UPDATE TYPE VALUES IN DSA_TYPE
+
+UPDATE DSA_TYPE SET TYPE = 'Equipment, Software and Accessories' WHERE CODE = 'LRG';
+UPDATE DSA_TYPE SET TYPE = 'Consumables' WHERE CODE = 'BAS';
+UPDATE DSA_TYPE SET TYPE = 'Non medical personal help (NMPH)' WHERE CODE = 'NMS';
+UPDATE DSA_TYPE SET TYPE = 'Travel expenses' WHERE CODE = 'TRA';
+
+COMMIT;

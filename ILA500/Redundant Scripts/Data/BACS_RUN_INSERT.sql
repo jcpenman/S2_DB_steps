@@ -1,0 +1,41 @@
+-- BACS_RUN_INSERT.sql
+-- Description: Script inserts BACS RUN data for ILA500
+-- Author R. Hunter.(SAAS) 
+--
+-- MODIFICATION HISTORY:
+-- Ref      Date        Author                  Desc.
+-- 1.0      07.07.08    R Hunter (SAAS)         Initial Version.
+--
+-- Configuration Management:
+-- $HeadURL: svn://192.168.186.3:3690/projects/sgas/tradev/svnRepositories/steps/trunk/Database/steps/ILA500/Data/BACS_RUN_INSERT.sql $
+-- $Author: $
+-- $Date: 2008-10-07 13:28:20 +0100 (Tue, 07 Oct 2008) $
+-- $Revision: 1292 $
+
+Insert into BACS_RUN
+   (BACS_RUN_ID, BACS_RUN_DATE, BACS_RUN_NAME, LAST_UPDATED_BY, LAST_UPDATED_ON)
+ Values
+   (5, TO_DATE('07/02/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'AD HOC', 'RH', TO_DATE('07/02/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'));
+/
+Insert into BACS_RUN
+   (BACS_RUN_ID, BACS_RUN_DATE, BACS_RUN_NAME, LAST_UPDATED_BY, LAST_UPDATED_ON)
+ Values
+   (1, TO_DATE('01/02/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'JANUARY', 'ANG', TO_DATE('07/01/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'));
+/
+Insert into BACS_RUN
+   (BACS_RUN_ID, BACS_RUN_DATE, BACS_RUN_NAME, LAST_UPDATED_BY, LAST_UPDATED_ON)
+ Values
+   (2, TO_DATE('03/20/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'MARCH', 'ANG', TO_DATE('07/01/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'));
+/
+Insert into BACS_RUN
+   (BACS_RUN_ID, BACS_RUN_DATE, BACS_RUN_NAME, LAST_UPDATED_BY, LAST_UPDATED_ON)
+ Values
+   (3, TO_DATE('07/19/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'JUNE', 'ANG', TO_DATE('07/01/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'));
+/
+Insert into BACS_RUN
+   (BACS_RUN_ID, BACS_RUN_DATE, BACS_RUN_NAME, LAST_UPDATED_BY, LAST_UPDATED_ON)
+ Values
+   (4, TO_DATE('09/30/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'), 'SEPTEMBER', 'ANGE', TO_DATE('07/01/2008 00:00:00', 'MM/DD/YYYY HH24:MI:SS'));
+/
+COMMIT
+/

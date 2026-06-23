@@ -1,0 +1,737 @@
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 1234567890
+OLD: 
+NEW: 1234567890
+ACTION: U
+USERNAME: u000924
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2121212122
+OLD: 
+NEW: 2121212122
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2322222222
+OLD: 
+NEW: 2322222222
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 3265985222
+OLD: 
+NEW: 3265985222
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 3433333333
+OLD: 
+NEW: 3433333333
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 6526546546
+OLD: 
+NEW: 6526546546
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2451GFYRT3
+OLD: 
+NEW: 2451GFYRT3
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2817ADESJ7
+OLD: 
+NEW: 2817ADESJ7
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2817BVCKN6
+OLD: 
+NEW: 2817BVCKN6
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2817DLPER2
+OLD: 
+NEW: 2817DLPER2
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2817DLPRT5
+OLD: 
+NEW: 2817DLPRT5
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2817JYGDR5
+OLD: 
+NEW: 2817JYGDR5
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2817LBNFD2
+OLD: 
+NEW: 2817LBNFD2
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2817LMSDA1
+OLD: 
+NEW: 2817LMSDA1
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2817PRTEK6
+OLD: 
+NEW: 2817PRTEK6
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2817SLPTG9
+OLD: 
+NEW: 2817SLPTG9
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2817TENDF6
+OLD: 
+NEW: 2817TENDF6
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2817TRFED8
+OLD: 
+NEW: 2817TRFED8
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2818ASCGF5
+OLD: 
+NEW: 2818ASCGF5
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2819DTENG5
+OLD: 
+NEW: 2819DTENG5
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2820TRENF1
+OLD: 
+NEW: 2820TRENF1
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2821AFDCE3
+OLD: 
+NEW: 2821AFDCE3
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2822LPTFD8
+OLD: 
+NEW: 2822LPTFD8
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2823JADCM4
+OLD: 
+NEW: 2823JADCM4
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2824JCBDE2
+OLD: 
+NEW: 2824JCBDE2
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2825PRTSE9
+OLD: 
+NEW: 2825PRTSE9
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2826KRTBD5
+OLD: 
+NEW: 2826KRTBD5
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2827LYTRF1
+OLD: 
+NEW: 2827LYTRF1
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2828GPTYR1
+OLD: 
+NEW: 2828GPTYR1
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2829WLCVD6
+OLD: 
+NEW: 2829WLCVD6
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 2830FTSHJ5
+OLD: 
+NEW: 2830FTSHJ5
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 3564RSPLT8
+OLD: 
+NEW: 3564RSPLT8
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 3804APLTD4
+OLD: 
+NEW: 3804APLTD4
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 4561DFRTY6
+OLD: 
+NEW: 4561DFRTY6
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 45852LDJY3
+OLD: 
+NEW: 45852LDJY3
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 52741FRTG5
+OLD: 
+NEW: 52741FRTG5
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 5334VKRMD5
+OLD: 
+NEW: 5334VKRMD5
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 5364DSAFR4
+OLD: 
+NEW: 5364DSAFR4
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 5364HDETM2
+OLD: 
+NEW: 5364HDETM2
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 6024DFRUT2
+OLD: 
+NEW: 6024DFRUT2
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 6024FTPLD9
+OLD: 
+NEW: 6024FTPLD9
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 6024KYTHD2
+OLD: 
+NEW: 6024KYTHD2
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 6024PKLER2
+OLD: 
+NEW: 6024PKLER2
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 6024PKRTE6
+OLD: 
+NEW: 6024PKRTE6
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 6024SREWY7
+OLD: 
+NEW: 6024SREWY7
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 6352KLTPB2
+OLD: 
+NEW: 6352KLTPB2
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 76433SZFG6
+OLD: 
+NEW: 76433SZFG6
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: 8546SRKYD7
+OLD: 
+NEW: 8546SRKYD7
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: ABCD12345A
+OLD: 
+NEW: ABCD12345A
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: ABCD12345B
+OLD: 
+NEW: ABCD12345B
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: ABCD12345C
+OLD: 
+NEW: ABCD12345C
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: ABCD12345D
+OLD: 
+NEW: ABCD12345D
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: ABCD12345E
+OLD: 
+NEW: ABCD12345E
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: ABCD12345F
+OLD: 
+NEW: ABCD12345F
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: ABCD12345G
+OLD: 
+NEW: ABCD12345G
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: ABCD12345H
+OLD: 
+NEW: ABCD12345H
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: ABCD12345I
+OLD: 
+NEW: ABCD12345I
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: ABCD12345J
+OLD: 
+NEW: ABCD12345J
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: GYJGHKHGLK
+OLD: 
+NEW: GYJGHKHGLK
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: JHGJGFKJYG
+OLD: 
+NEW: JHGJGFKJYG
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: KLDFGLHJFH
+OLD: 
+NEW: KLDFGLHJFH
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: lormcs4789
+OLD: 
+NEW: lormcs4789
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: lorr4298a1
+OLD: 
+NEW: lorr4298a1
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: LORR4298B2
+OLD: 
+NEW: LORR4298B2
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: LORR4298C3
+OLD: 
+NEW: LORR4298C3
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: testestest
+OLD: 
+NEW: testestest
+ACTION: U
+USERNAME: EDM
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: referencenumber
+PRIMARY_KEY: testtestte
+OLD: 
+NEW: testtestte
+ACTION: U
+USERNAME: u207229
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_AUD"."AUD_DATE")

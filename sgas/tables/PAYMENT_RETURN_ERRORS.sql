@@ -1,0 +1,133 @@
+-- PAYMENT_RETURN_ERRORS.sql
+-- Description: This table holds details of any payment return errors
+-- 
+--
+-- MODIFICATION HISTORY:
+-- Ref      Date        Author                  Desc.
+-- 1.0      23.09.11    P.Hughes (SAAS)         Initial Version.
+-- 1.1      26.09.11    A.Bowman (SAAS)         Added bells and whistles to script 
+-- 
+--
+-- Configuration Management:
+-- $HeadURL:  $
+-- $Author: $
+-- $Date:  $
+-- $Revision: $
+
+ALTER TABLE SGAS.PAYMENT_RETURN_ERRORS
+ DROP PRIMARY KEY CASCADE
+/
+DROP TABLE SGAS.PAYMENT_RETURN_ERRORS CASCADE CONSTRAINTS PURGE
+/
+
+--
+-- PAYMENT_RETURN_ERRORS  (Table) 
+--
+
+CREATE TABLE SGAS.PAYMENT_RETURN_ERRORS
+(
+  PAY_ERR_ID              NUMBER(10) NOT NULL,
+  RETURNS_BATCH_REF       VARCHAR2(7 BYTE),
+  ERROR_TYPE              VARCHAR2(100 BYTE),
+  ERROR_MODULE            VARCHAR2(100 BYTE),
+  OPERATION               VARCHAR2(100 BYTE),
+  ERROR_CODE              VARCHAR2(100 BYTE),
+  ERROR_DATE              DATE,
+  ERROR_MSG               VARCHAR2(1000 BYTE),
+  PAYEE_PAYMENT_ID        NUMBER(10),
+  STUD_REF_NO             NUMBER(10),
+  LAST_UPDATED_BY         VARCHAR2(15 BYTE)  DEFAULT User NOT NULL,
+  LAST_UPDATED_ON         DATE               DEFAULT Sysdate NOT NULL
+)
+
+TABLESPACE USERS
+PCTUSED    40
+PCTFREE    10
+INITRANS   2
+MAXTRANS   255
+STORAGE    (
+            INITIAL          100K
+            NEXT             100K
+            MINEXTENTS       1
+            MAXEXTENTS       99
+            PCTINCREASE      0
+            FREELISTS        1
+            FREELIST GROUPS  1
+            BUFFER_POOL      DEFAULT
+           )
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+COMMENT ON TABLE SGAS.PAYMENT_RETURN_ERRORS IS 'table holds details of any payment return errors';
+
+
+CREATE UNIQUE INDEX PAYMENT_RETURN_ERRORS_PK ON SGAS.PAYMENT_RETURN_ERRORS
+(PAY_ERR_ID)
+LOGGING
+TABLESPACE USERS
+PCTFREE    10
+INITRANS   2
+MAXTRANS   255
+STORAGE    (
+            INITIAL          64K
+            MINEXTENTS       1
+            MAXEXTENTS       2147483645
+            PCTINCREASE      0
+            BUFFER_POOL      DEFAULT
+           )
+NOPARALLEL;
+
+
+ALTER TABLE PAYMENT_RETURN_ERRORS ADD (
+  CONSTRAINT PAYMENT_RETURN_ERRORS_PK
+ PRIMARY KEY
+ (PAY_ERR_ID)
+    USING INDEX 
+    TABLESPACE USERS
+    PCTFREE    10
+    INITRANS   2
+    MAXTRANS   255
+    STORAGE    (
+                INITIAL          64K
+                MINEXTENTS       1
+                MAXEXTENTS       2147483645
+                PCTINCREASE      0
+               ));
+               
+--
+-- Create public synonym
+--
+ 
+DROP PUBLIC SYNONYM PAYMENT_RETURN_ERRORS
+/
+
+CREATE PUBLIC SYNONYM PAYMENT_RETURN_ERRORS FOR SGAS.PAYMENT_RETURN_ERRORS
+/
+
+DROP SEQUENCE SGAS.PAY_RETURN_ERRORS_ID_SEQ
+/
+--
+-- PAY_ERRORS_ID_seq  (Sequence) 
+--
+CREATE SEQUENCE SGAS.PAY_RETURN_ERRORS_ID_SEQ
+  START WITH 1
+  MAXVALUE 9999999999
+  MINVALUE 1
+  CYCLE
+  NOCACHE
+  NOORDER
+/
+
+CREATE OR REPLACE TRIGGER SGAS.TRIG_PAY_RETURN_ERRORS_SEQ 
+   BEFORE INSERT
+   ON SGAS.PAYMENT_RETURN_ERRORS
+   FOR EACH ROW
+BEGIN
+   SELECT PAY_RETURN_ERRORS_ID_SEQ.NEXTVAL
+     INTO :NEW.PAY_ERR_ID
+     FROM DUAL;
+END;
+

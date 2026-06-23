@@ -1,0 +1,244 @@
+--------------------------------------- CREATE MATERIALISED VIEW LOGS ON THE STEPS MASTER REFERENCE DATA TABLES --------------------------
+
+
+-------------------CONFIG_DATA------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.CONFIG_DATA
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+-------------------TITLE------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.TITLE
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------MARITAL_STATUS------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.MARITAL_STATUS
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------CONTACT_RELATIONSHIP------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.CONTACT_RELATIONSHIP
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------BENEFACTOR_RELATION------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.BENEFACTOR_RELATION
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------STUD_INCOME_TYPE------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.STUD_INCOME_TYPE
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------SUPP_GRANT_RELATION------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.SUPP_GRANT_RELATION
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------COUNTRY------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.COUNTRY
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------EU_PORTABILITY------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.EU_PORTABILITY
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------NATIONALITY------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.NATIONALITY
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------STUDENT_FAMILY_RELATIONSHIP------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.STUDENT_FAMILY_RELATIONSHIP
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------WHAT_DOING------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.WHAT_DOING
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------REASON_NO_BEN_INCOME------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.REASON_NO_BEN_INCOME
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------REASON_FOR_ONE_BEN------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.REASON_FOR_ONE_BEN
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------ENQUIRY_OPTION------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.ENQUIRY_OPTION
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------ACCOUNT_LOCK_REASON------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.ACCOUNT_LOCK_REASON
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------ACCOUNT_UNLOCK_REASON------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.ACCOUNT_UNLOCK_REASON
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------AWARD_STATUS_MESSAGE------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.AWARD_STATUS_MESSAGE
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------STUDENT_MESSAGE_SUBJECT------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.STUDENT_MESSAGE_SUBJECT
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+-------------------APPLICATION_STATUS_MESSAGE------------------------------------------
+CREATE MATERIALIZED VIEW LOG ON SGAS.APPLICATION_STATUS_MESSAGE
+STORAGE    (
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOPARALLEL
+WITH PRIMARY KEY;
+
+
+

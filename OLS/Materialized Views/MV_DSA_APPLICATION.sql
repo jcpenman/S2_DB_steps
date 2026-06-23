@@ -1,0 +1,53 @@
+--DROP MATERIALIZED VIEW STEPS.DSA_APPLICATION;
+CREATE MATERIALIZED VIEW STEPS.DSA_APPLICATION (ID,STUD_REF_NO,SESSION_CODE,LAST_UPDATED_BY,LAST_UPDATED_ON,DSA_APP_STATUS,IS_ONLINE)
+TABLESPACE SAAS_DATA
+PCTUSED    0
+PCTFREE    10
+INITRANS   2
+MAXTRANS   255
+STORAGE    (
+            INITIAL          64K
+            NEXT             1M
+            MINEXTENTS       1
+            MAXEXTENTS       UNLIMITED
+            PCTINCREASE      0
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+NOCACHE
+LOGGING
+NOCOMPRESS
+NOPARALLEL
+BUILD IMMEDIATE
+USING INDEX
+            TABLESPACE SAAS_DATA
+            PCTFREE    10
+            INITRANS   2
+            MAXTRANS   255
+            STORAGE    (
+                        INITIAL          64K
+                        NEXT             1M
+                        MINEXTENTS       1
+                        MAXEXTENTS       UNLIMITED
+                        PCTINCREASE      0
+                        BUFFER_POOL      DEFAULT
+                        FLASH_CACHE      DEFAULT
+                        CELL_FLASH_CACHE DEFAULT
+                       )
+REFRESH COMPLETE ON DEMAND
+WITH PRIMARY KEY
+AS 
+SELECT ID,
+       STUD_REF_NO,
+       SESSION_CODE,
+       LAST_UPDATED_BY,
+       LAST_UPDATED_ON,
+       DSA_APP_STATUS,
+       IS_ONLINE
+  FROM DSA_APPLICATION@steps.world;
+
+
+COMMENT ON MATERIALIZED VIEW STEPS.DSA_APPLICATION IS 'snapshot table for snapshot STEPS.DSA_APPLICATION';
+
+GRANT SELECT ON STEPS.DSA_APPLICATION TO SGAS;

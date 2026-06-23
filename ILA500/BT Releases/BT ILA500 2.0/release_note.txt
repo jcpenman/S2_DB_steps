@@ -1,0 +1,22 @@
+--
+-- Configuration Management:
+-- $HeadURL: svn://192.168.186.3/projects/sgas/tradev/svnRepositories/steps/trunk/Database/steps/ILA500/BT%20Releases/BT%20ILA500%202.0/release_note.txt $
+-- $Author: $
+-- $Date: 2008-10-07 13:29:55 +0100 (Tue, 07 Oct 2008) $
+-- $Revision: 1293 $
+
+In order to run the scripts in this folder you will require SYSTEM, EDM and SGAS login details for the STEPS database.
+
+Please observe the run order below for executing the scripts in this folder.
+
+1. As the SYSTEM user, run BT_BUILD_ILA500_SCHEMA.sql
+(This will run ILA_500_SCHEMA_BT.sql)
+
+2. As the ILA500 user run BT_BUILD_ILA500_TABLES.sql
+(This will run LEARNER.sql and PROVIDER.sql)
+
+3. As the EDM user run BT_BUILD_ILA500_EDM_DATA.sql
+(This will run EDM_BATCH_WF_INSERT.sql)
+
+4. AS the SGAS user run BT_BUILD_ILA500_SGAS_DATA.sql
+(This will run CONFIG_EDM_INSERT.sql and CONFIG_DATA_INSERT.sql)

@@ -1,0 +1,11 @@
+----------------------- SAAS_WEB_Portal Defect 353-------------------------------
+UPDATE COUNTRY SET IS_ACTIVE = 'Y' WHERE COUNTRY_CODE = 688;
+    
+Insert into NATIONALITY
+   (COUNTRY_CODE, NATIONALITY_NAME, NATIONALITY_REGION, LAST_UPDATED_BY, 
+    LAST_UPDATED_ON, IS_ACTIVE)
+ Values
+   (688, 'LEBANESE', 'ROW', 'SGAS', 
+    SYSDATE, 'Y');
+
+COMMIT;

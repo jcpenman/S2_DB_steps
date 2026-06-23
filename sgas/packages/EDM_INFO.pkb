@@ -1,0 +1,25 @@
+CREATE OR REPLACE PACKAGE BODY SGAS.EDM_INFO
+IS
+FUNCTION GetCollatedDocTypes
+RETURN t_cursor
+IS
+--
+    ret_val INTEGER;
+    func_ret_val BOOLEAN;
+    s_ora_err VARCHAR2(512);
+    DocTypes t_cursor;
+--
+BEGIN
+
+    --OPEN DocTypes FOR SELECT DOC_TYPE_CODE AS "DOC_TYPE_CODE" from COLLATED_DOC_TYPE;
+    OPEN DocTypes FOR SELECT DOCUMENT_TYPE_CODE AS "DOC_TYPE_CODE" FROM CONFIG_EDM
+		 WHERE multipage = 'Y';
+
+    RETURN DocTypes;
+--
+END;
+
+END;
+/
+
+GRANT EXECUTE ON  SGAS.EDM_INFO TO PUBLIC;

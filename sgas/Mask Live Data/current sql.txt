@@ -1,0 +1,122 @@
+OPEN c_dept_data;
+LOOP
+FETCH c_dept_data BULK COLLECT INTO vrt_dept_id,vrt_dept_name LIMIT 1000;
+
+FORALL i IN 1 .. vrt_dept_id.COUNT
+UPDATE departments_tmp
+SET dept_name = vrt_dept_name(i)
+WHERE dept_id = vrt_dept_id(i);
+
+EXIT WHEN c_dept_data%NOTFOUND;
+END LOOP;
+CLOSE c_dept_data;
+
+
+ 
+
+select sesion.sid,
+       sesion.username,
+       optimizer_mode,
+       hash_value,
+       address,
+       cpu_time,
+       elapsed_time,
+       sql_text
+  from v$sqlarea sqlarea, v$session sesion
+ where sesion.sql_hash_value = sqlarea.hash_value
+   and sesion.sql_address    = sqlarea.address
+   and sesion.username is not null
+
+
+
+SET TIMING ON;
+
+DROP table zz_mask_stud_name;
+
+/* Formatted on 18/11/2016 15:21:54 (QP5 v5.256.13226.35538) */
+CREATE TABLE zz_mask_stud_name
+AS
+WITH c_stud
+AS
+(SELECT /*+ parallel(b,10) */ ROWNUM num_row, b.stud_ref_no, b.title, b.initials, b.forenames,b.surname
+FROM stud b)
+SELECT ROWNUM record_no, x.*,
+       99999999 stud_ref_no
+FROM (SELECT DISTINCT na.*
+FROM (SELECT DISTINCT n.title,
+       LAG(n.initials,1,'') OVER(ORDER BY n.num_row) AS initials,
+       LAG(n.FORENAMES,2,'Scott') OVER(ORDER BY n.num_row) AS forenames,
+       LAG(n.SURNAME,3,'Dummy') OVER(ORDER BY n.num_row) AS surname
+FROM c_stud n
+UNION
+SELECT DISTINCT n.title,
+       LAG(n.initials,2,'') OVER(ORDER BY n.num_row) AS initials,
+       LAG(n.FORENAMES,6,'Scott') OVER(ORDER BY n.num_row) AS forenames,
+       LAG(n.SURNAME,4,'Dummy') OVER(ORDER BY n.num_row) AS surname
+FROM c_stud n
+UNION
+SELECT DISTINCT n.title,
+       LAG(n.initials,3,'') OVER(ORDER BY n.num_row) AS initials,
+       LAG(n.FORENAMES,8,'Scott') OVER(ORDER BY n.num_row) AS forenames,
+       LAG(n.SURNAME,1,'Dummy') OVER(ORDER BY n.num_row) AS surname
+FROM c_stud n
+UNION
+SELECT DISTINCT n.title,
+       LAG(n.initials,4,'') OVER(ORDER BY n.num_row) AS initials,
+       LAG(n.FORENAMES,2,'Scott') OVER(ORDER BY n.num_row) AS forenames,
+       LAG(n.SURNAME,3,'Dummy') OVER(ORDER BY n.num_row) AS surname
+FROM c_stud n) na
+WHERE NOT EXISTS (SELECT 1
+                  FROM c_stud b
+                  WHERE b.forenames = na.forenames
+                  AND b.surname = na.surname) ) x;
+
+
+CREATE INDEX SGAS.MSN_ST2 ON SGAS.ZZ_MASK_STUD_NAME
+(RECORD_NO, STUD_REF_NO)
+COMPUTE STATISTICS;
+
+CREATE INDEX SGAS.MSN_ST1 ON SGAS.zz_mask_stud_name
+(STUD_REF_NO)
+COMPUTE STATISTICS;
+
+DECLARE
+        
+   TYPE T_STUD_TAB IS TABLE OF C_STUD%ROWTYPE;
+   L_TAB T_STUD_TAB := T_STUD_TAB();
+   CURSOR C_STUD
+   IS
+        SELECT S.STUD_REF_NO
+          FROM STUD S
+      ORDER BY S.STUD_REF_NO;
+BEGIN
+   UPDATE ZZ_MASK_STUD_NAME
+      SET STUD_REF_NO = NULL;
+
+    OPEN C_STUD;
+    LOOP
+    FETCH C_STUD BULK COLLECT INTO T_STUD_TAB LIMIT 1000;
+
+    FORALL i IN 1 .. T_STUD_TAB.COUNT
+
+      UPDATE ZZ_MASK_STUD_NAME S
+         SET S.STUD_REF_NO = T_STUD_TAB(i).STUD_REF_NO
+       WHERE S.RECORD_NO = (SELECT MIN (S1.RECORD_NO)
+                              FROM ZZ_MASK_STUD_NAME S1
+                             WHERE S1.STUD_REF_NO IS NULL);
+                             
+    EXIT WHEN C_STUD%NOTFOUND;
+    END LOOP;
+    CLOSE C_STUD;
+      
+/*   FOR GET_REC IN C_STUD
+   LOOP
+      UPDATE ZZ_MASK_STUD_NAME S
+         SET S.STUD_REF_NO = GET_REC.STUD_REF_NO
+       WHERE S.RECORD_NO = (SELECT MIN (S1.RECORD_NO)
+                              FROM ZZ_MASK_STUD_NAME S1
+                             WHERE S1.STUD_REF_NO IS NULL);
+   END LOOP;
+*/
+   COMMIT;
+END;

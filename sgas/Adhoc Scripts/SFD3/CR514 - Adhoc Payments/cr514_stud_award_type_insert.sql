@@ -1,0 +1,22 @@
+-- add new records to the STUD_AWARD_TYPE table
+-- Require 2 new ADHOC payment types
+-- UG ADHOC types will continue to use the original ADHOC STUD_AWARD_TYPE
+ 
+
+-- AHP Placement Expenses
+
+insert into STUD_AWARD_TYPE
+(STUD_AWARD_TYPE, LOAN_NON_LOAN_FEE, SCHEME, AWARD_TYPE_DESCRIPT, SHOW_ON_AN_PAYMENTS, COST_CENTRE, PROGRAMME, ACCOUNT_NAME, ENTITY, SAAS_MAKE_PAYMENT, COMMENTS, TYPE, LAST_UPDATED_BY, LAST_UPDATED_ON)
+values('ADHOC2', 'non_loan', 'AHP - NMSB', 'AHP PLACEMENT EXPENSES', 'N', '242050', 'HAC', '60208585', '600', 'N', NULL, 'MAN', 'SGAS', SYSDATE);
+
+
+-- NMSB - ADHOC only require one row cause the adhoc types will share these budget codes
+
+insert into STUD_AWARD_TYPE
+(STUD_AWARD_TYPE, LOAN_NON_LOAN_FEE, SCHEME, AWARD_TYPE_DESCRIPT, SHOW_ON_AN_PAYMENTS, COST_CENTRE, PROGRAMME, ACCOUNT_NAME, ENTITY, SAAS_MAKE_PAYMENT, COMMENTS, TYPE, LAST_UPDATED_BY, LAST_UPDATED_ON)
+values('ADHOC3', 'non_loan', 'NMSB', 'ADHOC - NMSB', 'N', '242050', 'HAC', '60201360', '600', 'N', NULL, 'MAN', 'SGAS', SYSDATE);
+
+
+commit;
+
+

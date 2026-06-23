@@ -1,0 +1,115 @@
+17/11/2009 09:56:02
+
+Exported the following Data:
+Exported the following Business Areas:
+	ILA500-1
+Exported the following Folders:
+	Application rejection
+	Application Status
+	Course Level
+	Course type
+	Custom1
+	Custom10
+	Custom11
+	Custom2
+	Custom9
+	Learner
+	Learner application 
+	Learner Application Aud
+	Learner aud
+	Learner payment
+	Payment Report Archive
+	Payment status
+	Provider
+	Provider payment
+	Provider Status
+	Provider type
+	Vu learner audit
+	Vu provider balances
+	Vu Provider Payment Report
+	Work items
+Exported the following Item classes:
+	Application Status
+	Application Status ID
+	Course Id
+	Course Level
+	Course Type
+	Month App Rec'd
+	Payment Status
+	Provider Type
+	Rejection Reason
+	Session
+	Status
+	Year App Recd
+Exported the following Item Hierarchies:
+	Application rejection: Last updated on: Default Date Hierarchy
+	Course type: Bacs payment date: Default Date Hierarchy
+	Course type: Batch run date: Default Date Hierarchy
+	Course type: Fee cut off date: Default Date Hierarchy
+	Course type: Fee period end: Default Date Hierarchy
+	Course type: Fee period start: Default Date Hierarchy
+	Course type: Last updated on: Default Date Hierarchy
+	Course type: Submitted date: Default Date Hierarchy
+	Learner 1: Dob: Default Date Hierarchy 2
+	Learner 1: Last updated on: Default Date Hierarchy 2
+	Learner 1: Mail returned date: Default Date Hierarchy 2
+	Learner application 1: Course end date: Default Date Hierarchy 2
+	Learner application 1: Course start date: Default Date Hierarchy 2
+	Learner application 1: Date actioned: Default Date Hierarchy 2
+	Learner application 1: Date app recd: Default Date Hierarchy 2
+	Learner application 1: Date endorsed: Default Date Hierarchy 2
+	Learner application 1: Date of last calc: Default Date Hierarchy 2
+	Learner application 1: Date record created: Default Date Hierarchy 2
+	Learner application 1: Date signed: Default Date Hierarchy 2
+	Learner application 1: Date withdrawn: Default Date Hierarchy 2
+	Learner application 1: Last letter generated: Default Date Hierarchy 2
+	Learner application 1: Last updated on: Default Date Hierarchy 2
+	Learner application 1: Payment date: Default Date Hierarchy 2
+	Learner Application Aud: Aud Date: Default Date Hierarchy 2
+	Learner aud: Aud date: Default Date Hierarchy 2
+	Learner payment: Last updated on: Default Date Hierarchy 2
+	Payment Report Archive: Bacs Run Date: Default Date Hierarchy 2
+	Payment Report Archive: Dob: Default Date Hierarchy 2
+	Payment Report Archive: Fee Payment Date: Default Date Hierarchy 2
+	Payment status: Last updated on: Default Date Hierarchy 2
+	Provider payment: Last updated on: Default Date Hierarchy 2
+	Provider Status: Last Updated On: Default Date Hierarchy 2
+	Provider: Last updated on: Default Date Hierarchy 2
+	Vu learner audit: Aud date: Default Date Hierarchy 2
+	Vu provider balances: Balance date: Default Date Hierarchy 2
+	Vu Provider Payment Report: Dob: Default Date Hierarchy 2
+	Vu Provider Payment Report: Paymentdate: Default Date Hierarchy 2
+	Vu Provider Payment Report: Prov Payment Date: Default Date Hierarchy 2
+	Work items: Date due: Default Date Hierarchy 2
+	Work items: Date received: Default Date Hierarchy 2
+Exported the following Date Hierarchies:
+	Default Date Hierarchy
+	Default Date Hierarchy 1
+	Default Date Hierarchy 2
+Exported the following Functions:
+Exported the following Summaries:
+Exported the following Workbooks:
+	ILA510_EUL.Report 1 - ILA500 Learner Applications by Status and Session
+	ILA510_EUL.Report 10 - ILA500 Work Carried out by User by Learner or Learner App
+	ILA510_EUL.Report 11 - ILA500 Performance Statistics by Date
+	ILA510_EUL.Report 12 - ILA500 Outstanding Debt
+	ILA510_EUL.Report 13 - ILA500 Payment Report Archive
+	ILA510_EUL.Report 14 - ILA500 Selected Work Items
+	ILA510_EUL.Report 15 - ILA500 Selected QA Work Items
+	ILA510_EUL.Report 2 - ILA500 Learner Applications by Status and Date Received
+	ILA510_EUL.Report 3 - ILA500 Rejected Learner Applications by Reason and Session 
+	ILA510_EUL.Report 4 - ILA500 Learner Applications by Course Type and Payment Status 
+	ILA510_EUL.Report 5 - ILA500 Learner Applications by Course Level and Session 
+	ILA510_EUL.Report 6 - ILA500 Learning Providers by Type 
+	ILA510_EUL.Report 7 - ILA500 Learner Applications by Learning Provider and Session 
+	ILA510_EUL.Report 8 - ILA500 Learner Applications by Learning Provider and Status 
+	ILA510_EUL.Report 9 - ILA500 Work Carried out by User and Date
+	ILA510_EUL.Table 1 - Uptake by Learner Type
+	ILA510_EUL.Table 2 - Total Attending Learner by Provider Type
+	ILA510_EUL.Table 3 - Total Attending Learner by Course Level
+	ILA510_EUL.Table 4 - Total Attending Learner by Local Authority and Course Level
+	ILA510_EUL.Table 5 - Total Attending Learner by Parliamentary Constituency and Couse Level
+	ILA510_EUL.Table 6 - Learning Provider Report of Attending Learners
+	ILA510_EUL.Table 7 - Attending Learner Income by Course Level
+	ILA510_EUL.Table 8 - Learner Tracking
+Exported the following Automated Summary Management Policies:

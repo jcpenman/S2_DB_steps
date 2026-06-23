@@ -1,0 +1,120 @@
+-- RETURN_BATCHES.sql
+-- Description: This table holds details of the returns batches
+-- 
+--
+-- MODIFICATION HISTORY:
+-- Ref      Date        Author                  Desc.
+-- 1.0      23.09.11    P.Hughes (SAAS)         Initial Version.
+-- 1.1      26.09.11    A.Bowman (SAAS)         Added bells and whistles to script 
+-- 
+--
+-- Configuration Management:
+-- $HeadURL:  $
+-- $Author: $
+-- $Date:  $
+-- $Revision: $
+
+ALTER TABLE SGAS.RETURN_BATCHES
+ DROP PRIMARY KEY CASCADE
+/
+DROP TABLE SGAS.RETURN_BATCHES CASCADE CONSTRAINTS PURGE
+/
+
+--
+-- RETURN_BATCHES  (Table) 
+--
+
+CREATE TABLE SGAS.RETURN_BATCHES
+(
+  RETURNS_BATCH_REF       VARCHAR2(7 BYTE) NOT NULL,
+  BATCH_COUNT             NUMBER(7) NOT NULL,
+  AC_YEAR                 NUMBER(4) NOT NULL,
+  AC_PERIOD               NUMBER(2) NOT NULL,
+  TOTAL_RETURNS           NUMBER(15,2) NOT NULL,
+  BATCH_CREATION_DATE     DATE NOT NULL,
+  RETURNS_STATUS          VARCHAR2(1) NOT NULL,
+  LAST_UPDATED_BY         VARCHAR2(15 BYTE)  DEFAULT User NOT NULL,
+  LAST_UPDATED_ON         DATE               DEFAULT Sysdate NOT NULL
+)
+
+TABLESPACE USERS
+PCTUSED    40
+PCTFREE    10
+INITRANS   2
+MAXTRANS   255
+STORAGE    (
+            INITIAL          100K
+            NEXT             100K
+            MINEXTENTS       1
+            MAXEXTENTS       99
+            PCTINCREASE      0
+            FREELISTS        1
+            FREELIST GROUPS  1
+            BUFFER_POOL      DEFAULT
+           )
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+COMMENT ON TABLE SGAS.RETURN_BATCHES IS 'table holds details of the returns batches';
+
+
+CREATE UNIQUE INDEX RETURN_BATCHES_PK ON SGAS.RETURN_BATCHES
+(RETURNS_BATCH_REF)
+LOGGING
+TABLESPACE USERS
+PCTFREE    10
+INITRANS   2
+MAXTRANS   255
+STORAGE    (
+            INITIAL          64K
+            MINEXTENTS       1
+            MAXEXTENTS       2147483645
+            PCTINCREASE      0
+            BUFFER_POOL      DEFAULT
+           )
+NOPARALLEL;
+
+ALTER TABLE SGAS.RETURN_BATCHES ADD (
+  CONSTRAINT RETURN_BATCHES_PK
+ PRIMARY KEY
+ (RETURNS_BATCH_REF)
+    USING INDEX 
+    TABLESPACE USERS
+    PCTFREE    10
+    INITRANS   2
+    MAXTRANS   255
+    STORAGE    (
+                INITIAL          64K
+                MINEXTENTS       1
+                MAXEXTENTS       2147483645
+                PCTINCREASE      0
+               ));
+
+--
+-- Create public synonym
+--
+ 
+DROP PUBLIC SYNONYM RETURN_BATCHES
+/
+
+CREATE PUBLIC SYNONYM RETURN_BATCHES FOR SGAS.RETURN_BATCHES
+/
+
+DROP SEQUENCE SGAS.RETURN_BATCHES_SEQ
+/
+
+--
+-- RETURN_BATCHES_SEQ  (Sequence) 
+--
+
+CREATE SEQUENCE SGAS.RETURN_BATCHES_SEQ
+  START WITH 1
+  MAXVALUE 9999999999
+  MINVALUE 1
+  NOCYCLE
+  NOCACHE
+  NOORDER
+/

@@ -1,0 +1,220 @@
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA date
+PRIMARY_KEY: 1234567890
+OLD: 00:00:00
+NEW: 24/07/2008
+ACTION: U
+USERNAME: u024227
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA date
+PRIMARY_KEY: 5364DSAFR4
+OLD: 00:00:00
+NEW: 21/08/2008
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA date
+PRIMARY_KEY: 5364HDETM2
+OLD: 00:00:00
+NEW: 21/08/2008
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA date
+PRIMARY_KEY: 6024FTPLD9
+OLD: 00:00:00
+NEW: 21/08/2008
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA date
+PRIMARY_KEY: 6024KYTHD2
+OLD: 00:00:00
+NEW: 21/08/2008
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA date
+PRIMARY_KEY: 6024PKLER2
+OLD: 00:00:00
+NEW: 21/08/2008
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA date
+PRIMARY_KEY: 6024SREWY7
+OLD: 00:00:00
+NEW: 21/08/2008
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA date
+PRIMARY_KEY: ABCD12345J
+OLD: 00:00:00
+NEW: 21/08/2008
+ACTION: U
+USERNAME: ILAU
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA date
+PRIMARY_KEY: GYJGHKHGLK
+OLD: 00:00:00
+NEW: 11/08/2008
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA date
+PRIMARY_KEY: KLDFGLHJFH
+OLD: 00:00:00
+NEW: 11/08/2008
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA required
+PRIMARY_KEY: 1234567890
+OLD: -1
+NEW: 0
+ACTION: U
+USERNAME: u024227
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA required
+PRIMARY_KEY: 5364DSAFR4
+OLD: -1
+NEW: 0
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA required
+PRIMARY_KEY: 5364HDETM2
+OLD: -1
+NEW: 0
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA required
+PRIMARY_KEY: 6024FTPLD9
+OLD: -1
+NEW: 0
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA required
+PRIMARY_KEY: 6024KYTHD2
+OLD: -1
+NEW: 0
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA required
+PRIMARY_KEY: 6024PKLER2
+OLD: -1
+NEW: 0
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA required
+PRIMARY_KEY: 6024SREWY7
+OLD: -1
+NEW: 0
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA required
+PRIMARY_KEY: ABCD12345J
+OLD: -1
+NEW: 0
+ACTION: U
+USERNAME: ILAU
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA required
+PRIMARY_KEY: GYJGHKHGLK
+OLD: -1
+NEW: 0
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")
+*******************************************
+* ROW                                     *
+*******************************************
+AUD_DATE: 
+COLUMN_NAME: QA required
+PRIMARY_KEY: KLDFGLHJFH
+OLD: -1
+NEW: 0
+ACTION: U
+USERNAME: ILAT
+ORA-01400: cannot insert NULL into ("ILA500TEST"."LEARNER_APPLICATION_AUD"."AUD_DATE")

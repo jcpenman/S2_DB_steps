@@ -1,0 +1,48 @@
+/* Formatted on 2012/02/01 11:47 (Formatter Plus v4.8.8) */
+ALTER TABLE
+   edm.raw_data$test_data
+DROP COLUMN
+   aud_action;
+
+ALTER TABLE
+   edm.raw_data$test_data
+DROP COLUMN
+   aud_timestamp;
+
+ALTER TABLE
+   edm.raw_data$test_data
+DROP COLUMN
+   aud_user;
+
+
+ALTER TABLE
+   edm.raw_data$test_data
+ ADD inscot_year VARCHAR2(1 BYTE);
+
+ALTER TABLE
+   edm.raw_data$test_data
+ ADD consent_from_student VARCHAR2(1 BYTE);
+
+ALTER TABLE
+   edm.raw_data$test_data
+ ADD consent_from_father VARCHAR2(1 BYTE);
+
+ALTER TABLE
+   edm.raw_data$test_data
+ ADD consent_from_mother VARCHAR2(1 BYTE);
+
+ALTER TABLE
+   edm.raw_data$test_data
+ ADD consent_from_husband_wife VARCHAR2(1 BYTE);
+
+ALTER TABLE
+   edm.raw_data$test_data
+ ADD aud_action VARCHAR2(30 BYTE);
+
+ALTER TABLE
+   edm.raw_data$test_data
+ ADD aud_timestamp DATE;
+
+ALTER TABLE
+   edm.raw_data$test_data
+ ADD aud_user VARCHAR2(30 BYTE);

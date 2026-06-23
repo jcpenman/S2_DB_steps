@@ -1,0 +1,3 @@
+Insert into SGAS.DISABILITY_TYPE (LEGACY_ID, LEGACY_CODE, DESCRIPT, LAST_UPDATED_BY) Values (0, '0', 'Unseen disability', 'SGAS');
+Insert into SGAS.DISABILITY_TYPE (LEGACY_ID, LEGACY_CODE, DESCRIPT, LAST_UPDATED_BY) Values (0, '0', 'Multiple disabilities', 'SGAS');
+COMMIT;

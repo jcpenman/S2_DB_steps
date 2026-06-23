@@ -1,0 +1,310 @@
+
+SYSDATE  
+---------
+20-OCT-10
+
+
+1 row selected.
+
+************************************
+************ TABLES ****************
+************************************
+
+*********************************
+**** Running BATCH_STATS.sql ****
+*********************************
+ORA-00942: table or view does not exist
+Table created.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+ORA-01432: public synonym to be dropped does not exist
+Synonym created.
+**********************************
+**** Running DUP_ENVELOPE.sql ****
+**********************************
+ORA-00942: table or view does not exist
+ORA-00942: table or view does not exist
+Table created.
+Index created.
+Table altered.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+**********************************
+**** Running EDM_AUD_TEMP.sql ****
+**********************************
+ORA-00942: table or view does not exist
+Table created.
+Index created.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+ORA-01432: public synonym to be dropped does not exist
+Synonym created.
+**********************************
+**** Running EDM_BATCH_WF.sql ****
+**********************************
+ORA-00942: table or view does not exist
+ORA-00942: table or view does not exist
+Table created.
+Index created.
+Table altered.
+Table altered.
+Table altered.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+ORA-01432: public synonym to be dropped does not exist
+Synonym created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+ORA-02290: check constraint (EDM.EDM_BATCH_WF_UK01) violated
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+1 row created.
+Commit complete.
+**********************************
+**** Running EDM_COMPLETE.sql ****
+**********************************
+ORA-00942: table or view does not exist
+Table created.
+ORA-24344: success with compilation error
+1/19    PL/SQL: ORA-00942: table or view does not exist1/7     PL/SQL: SQL Statement ignored
+No errors.
+ORA-24344: success with compilation error
+10/15   PL/SQL: ORA-00942: table or view does not exist10/3    PL/SQL: SQL Statement ignored
+No errors.
+ORA-24344: success with compilation error
+1/19    PL/SQL: ORA-00942: table or view does not exist1/7     PL/SQL: SQL Statement ignored
+No errors.
+ORA-01432: public synonym to be dropped does not exist
+Synonym created.
+Table altered.
+Table altered.
+Grant complete.
+ORA-01917: user or role 'U207511' does not exist
+ORA-02264: name already used by an existing constraint
+ORA-02264: name already used by an existing constraint
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Synonym dropped.
+Synonym created.
+**************************************
+**** Running EDM_CONFIG_PAGES.sql ****
+**************************************
+ORA-00942: table or view does not exist
+ORA-00942: table or view does not exist
+Table created.
+Index created.
+Table altered.
+Table altered.
+Grant complete.
+ORA-01432: public synonym to be dropped does not exist
+Synonym created.
+*********************************
+**** Running EDM_ERROR_LOG.sql **
+*********************************
+ORA-00942: table or view does not exist
+Table created.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+*********************************
+**** Running EDM_TEMP.sql *******
+*********************************
+ORA-00942: table or view does not exist
+Table created.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+ORA-01432: public synonym to be dropped does not exist
+Synonym created.
+*********************************
+**** Running PICK_LIST.sql ******
+*********************************
+ORA-00942: table or view does not exist
+ORA-00942: table or view does not exist
+Table created.
+Index created.
+Table altered.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+*********************************
+**** Running RAW_DATA.sql *******
+*********************************
+ORA-00942: table or view does not exist
+Table created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+Comment created.
+ORA-24344: success with compilation error
+27/7    PLS-00201: identifier 'SGAS.PK_STEPS_WEB' must be declared27/7    PL/SQL: Statement ignored
+No errors.
+ORA-24344: success with compilation error
+14/23   PL/SQL: ORA-00942: table or view does not exist14/7    PL/SQL: SQL Statement ignored
+Errors for TRIGGER RAW_DATA$AUDIT_TRIG
+
+LINE/COL ERROR                                                            
+-------- -----------------------------------------------------------------
+14/23    PL/SQL: ORA-00942: table or view does not exist                  
+14/7     PL/SQL: SQL Statement ignored                                    
+Table altered.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+ORA-01432: public synonym to be dropped does not exist
+Synonym created.
+*****************************************
+**** Running TMP_EDM_MESSAGE_LOG.sql ****
+*****************************************
+ORA-00942: table or view does not exist
+Table created.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+Grant complete.
+
+************************************
+*********** SEQUENCES **************
+************************************
+
+************************************
+**** Running RAW_DATA_ID_SEQ.sql ***
+************************************
+ORA-02289: sequence does not exist
+Sequence created.
+ORA-01432: public synonym to be dropped does not exist
+Synonym created.
+Grant complete.
+*************************************
+**** Running DUP_ENVELOPE_SEQ.sql ***
+*************************************
+ORA-02289: sequence does not exist
+Sequence created.
+ORA-01432: public synonym to be dropped does not exist
+Synonym created.
+Grant complete.
+*****************************************
+**** Running EDM_PICK_LIST_ID_SEQ.sql ***
+*****************************************
+ORA-02289: sequence does not exist
+Sequence created.
+ORA-01432: public synonym to be dropped does not exist
+Synonym created.
+Grant complete.
+Commit complete.

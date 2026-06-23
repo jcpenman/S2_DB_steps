@@ -1,0 +1,51 @@
+DROP TABLE SGAS.AWARD_LETTER_EMPTY CASCADE CONSTRAINTS;
+
+CREATE TABLE SGAS.AWARD_LETTER_EMPTY
+(
+  STUD_CRSE_YEAR_ID         NUMBER(9)           NOT NULL,
+  AWARD_LETTER              BLOB,
+  AWARD_LETTER_LAST_UPDATE  DATE,
+  LEARNER_APPLICATION_ID    NUMBER
+)
+LOB (AWARD_LETTER) STORE AS (
+  TABLESPACE  USERS
+  ENABLE      STORAGE IN ROW
+  CHUNK       8192
+  RETENTION
+  NOCACHE
+  LOGGING
+      STORAGE    (
+                  INITIAL          64K
+                  NEXT             1M
+                  MINEXTENTS       1
+                  MAXEXTENTS       UNLIMITED
+                  PCTINCREASE      0
+                  BUFFER_POOL      DEFAULT
+                  FLASH_CACHE      DEFAULT
+                  CELL_FLASH_CACHE DEFAULT
+                 ))
+TABLESPACE USERS
+RESULT_CACHE (MODE DEFAULT)
+PCTUSED    0
+PCTFREE    10
+INITRANS   1
+MAXTRANS   255
+STORAGE    (
+            INITIAL          64K
+            NEXT             1M
+            MAXSIZE          UNLIMITED
+            MINEXTENTS       1
+            MAXEXTENTS       UNLIMITED
+            PCTINCREASE      0
+            BUFFER_POOL      DEFAULT
+            FLASH_CACHE      DEFAULT
+            CELL_FLASH_CACHE DEFAULT
+           )
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+
+GRANT SELECT ON SGAS.AWARD_LETTER_EMPTY TO SAAS_ROLE_SUPP_SELECT;

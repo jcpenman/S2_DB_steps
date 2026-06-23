@@ -1,0 +1,134 @@
+
+----------OTHER_CHANGE_EXC------------------------------
+DROP TABLE OTHER_CHANGE_EXC CASCADE CONSTRAINTS;
+
+----------BANK_CHANGE_EXC-------------------------------
+DROP TABLE BANK_CHANGE_EXC CASCADE CONSTRAINTS;
+CREATE TABLE BANK_CHANGE_EXC
+(
+  STUD_REF_NO      			NUMBER(10)		NOT NULL,	
+  CHANGE_DATE				DATE			NOT NULL,
+  ACCOUNT_NO				VARCHAR2(10)	NOT NULL,
+  SORT_CODE  				VARCHAR2(6)		NOT NULL,
+  SQLCODE					VARCHAR2(25),
+  SQLERRM					VARCHAR2(100)
+
+);
+
+----------EMAIL_CHANGE_EXC-------------------------------
+DROP TABLE EMAIL_MPHONE_CHANGE_EXC CASCADE CONSTRAINTS;
+CREATE TABLE EMAIL_CHANGE_EXC
+(
+  STUD_REF_NO      			NUMBER(10)		NOT NULL,	
+  CHANGE_DATE				DATE			NOT NULL,
+  NEW_EMAIL					VARCHAR2(80)	NOT NULL,
+  SQLCODE					VARCHAR2(25),
+  SQLERRM					VARCHAR2(100)
+
+);
+
+----------PHONE_CHANGE_EXC-------------------------------
+CREATE TABLE PHONE_CHANGE_EXC
+(
+  STUD_REF_NO      			NUMBER(10)		NOT NULL,	
+  CHANGE_DATE				DATE			NOT NULL,
+  NEW_PHONE 				VARCHAR2(80)	NOT NULL,
+  SQLCODE					VARCHAR2(25),
+  SQLERRM					VARCHAR2(100)
+
+);
+
+----------HOME_ADDR_CHANGE_EXC-------------------------------
+DROP TABLE SGAS.HOME_ADDR_CHANGE_EXC CASCADE CONSTRAINTS;
+CREATE TABLE SGAS.HOME_ADDR_CHANGE_EXC
+(
+  STUD_REF_NO     NUMBER(10)               NOT NULL,
+  CHANGE_DATE     DATE                     NOT NULL,
+  HOUSE_NO_NAME   VARCHAR2(32)             NOT NULL,
+  ADDR_L1         VARCHAR2(65)             NOT NULL,
+  ADDR_L2         VARCHAR2(65),
+  ADDR_L3         VARCHAR2(32),
+  ADDR_L4         VARCHAR2(32),
+  POST_CODE       VARCHAR2(8),
+  SQLCODE         VARCHAR2(25),
+  SQLERRM         VARCHAR2(100)
+);
+
+----------LOAN_CONTACTS_CHANGE_EXC-------------------------------
+DROP TABLE SGAS.LOAN_CONTACTS_CHANGE_EXC CASCADE CONSTRAINTS;
+CREATE TABLE SGAS.LOAN_CONTACTS_CHANGE_EXC
+(
+  STUD_REF_NO      NUMBER(10)              NOT NULL,
+  CHANGE_DATE      DATE                    NOT NULL,
+  NAME_1           VARCHAR2(60)            NOT NULL,
+  ADDR_L1_1        VARCHAR2(60)            NOT NULL,
+  ADDR_L2_1        VARCHAR2(60),
+  ADDR_L3_1        VARCHAR2(60),
+  POST_CODE_1      VARCHAR2(8),
+  TEL_NO_1         VARCHAR2(14),
+  REL_CODE_1       VARCHAR2(1)             NOT NULL,
+  NAME_2           VARCHAR2(60)            NOT NULL,
+  ADDR_L1_2        VARCHAR2(60)            NOT NULL,
+  ADDR_L2_2        VARCHAR2(60),
+  ADDR_L3_2        VARCHAR2(60),
+  POST_CODE_2      VARCHAR2(8),
+  TEL_NO_2         VARCHAR2(14),
+  REL_CODE_2       VARCHAR2(1)             NOT NULL,
+  SQLCODE          VARCHAR2(25),
+  SQLERRM          VARCHAR2(100)
+);
+
+----------STUD_CHANGE_EXC-----------------------------
+DROP TABLE TITLE_NAME_CHANGE_EXC CASCADE CONSTRAINTS;
+CREATE TABLE SGAS.STUD_CHANGE_EXC
+(
+  STUD_REF_NO      			NUMBER(10)		NOT NULL,
+  CHANGE_DATE				DATE			NOT NULL,
+  DOB     					DATE,
+  SQLCODE					VARCHAR2(25),
+  SQLERRM					VARCHAR2(100)
+);
+ 
+----------TERM_ADDR_CHANGE_EXC-----------------------------
+DROP TABLE SGAS.TERM_ADDR_CHANGE_EXC CASCADE CONSTRAINTS;
+CREATE TABLE SGAS.TERM_ADDR_CHANGE_EXC
+(
+  STUD_REF_NO         NUMBER(10)                NOT NULL,
+  CHANGE_DATE         DATE                      NOT NULL,
+  HOUSE_NO_NAME       VARCHAR2(32)         		NOT NULL,
+  ADDR_L1             VARCHAR2(65)        		NOT NULL,
+  ADDR_L2             VARCHAR2(65),
+  ADDR_L3             VARCHAR2(32),
+  ADDR_L4             VARCHAR2(32),
+  POST_CODE           VARCHAR2(8),
+  SQLCODE             VARCHAR2(25),
+  SQLERRM             VARCHAR2(100)
+);
+
+-----------STUD_TERM_ADDR------------------------------------
+ALTER TABLE STUD_TERM_ADDR MODIFY (LOCATION_IND DEFAULT 'H', RESIDENCE_IND DEFAULT 'P');
+
+------------CHANGE OF DETAILS JOB --------------------------------------------
+BEGIN 
+  SYS.DBMS_JOB.REMOVE(23); --61 FOR LIVE
+COMMIT;
+END;
+/
+
+DECLARE
+  X NUMBER;
+BEGIN
+  SYS.DBMS_JOB.SUBMIT
+  ( job       => X 
+   ,what      => 'pk_change_details.pull_web_changes;'
+   ,next_date => TO_DATE('16/11/2015 16:00:00','dd/mm/yyyy hh24:mi:ss')
+   ,interval  => 'SYSDATE + 1/1440'
+   ,no_parse  => FALSE
+  );
+  SYS.DBMS_OUTPUT.PUT_LINE('Job Number is: ' || to_char(x));
+  SYS.DBMS_JOB.BROKEN
+   (job    => X,
+    broken => TRUE);
+COMMIT;
+END;
+/

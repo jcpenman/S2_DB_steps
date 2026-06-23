@@ -1,0 +1,147 @@
+/* Formatted on 17/10/2018 14:30:08 (QP5 v5.256.13226.35538) */
+--TRUNCATE TABLE COLLEGE_CHANGE REUSE STORAGE;
+--TRUNCATE TABLE COURSE_CHANGE REUSE STORAGE;
+--TRUNCATE TABLE TERM_CHANGE REUSE STORAGE;
+
+/* Formatted on 17/10/2018 14:30:08 (QP5 v5.256.13226.35538) */
+TRUNCATE TABLE CURRENT_COLLEGE REUSE STORAGE;
+
+INSERT INTO CURRENT_COLLEGE (HEI_INST_CODE,
+                             INST_CODE,
+                             HEI_INST_NAME,
+                             SESSION_CODE,
+                             MAX_FEE)
+     SELECT DISTINCT I.HEI_INST_CODE HEI_INST_CODE,
+                     I.INST_CODE INST_CODE,
+                     HI.HEI_INST_NAME HEI_INST_NAME,
+                     TO_CHAR (CS.SESSION_CODE) SESSION_CODE,
+                     9250 MAX_FEE
+       FROM SGAS.INST I,
+            SGAS.CRSE C,
+            SGAS.HEI_INST@GRASS HI,
+            SGAS.CRSE_SESSION CS
+      WHERE     I.INST_CODE = C.INST_CODE
+            AND I.HEI_INST_CODE = HI.HEI_INST_CODE
+            AND I.HEI_INST_CODE IS NOT NULL
+            AND C.CRSE_ID = CS.CRSE_ID
+            AND CS.SESSION_CODE IN (2018, 2019)
+   GROUP BY I.HEI_INST_CODE, I.INST_CODE, HI.HEI_INST_NAME,TO_CHAR (CS.SESSION_CODE);
+
+
+COMMIT;
+
+/* Formatted on 29/10/2018 10:02:29 (QP5 v5.256.13226.35538) */
+TRUNCATE TABLE CURRENT_COURSE REUSE STORAGE;
+
+INSERT INTO CURRENT_COURSE (HEI_INST_CODE,
+                            INST_CODE,
+                            CAMPUS,
+                            HEI_CRSE_CODE,
+                            CRSE_CODE,
+                            SCOTTISH,
+                            HEI_CRSE_NAME,
+                            SESSION_CODE,
+                            DURATION)
+     SELECT HC.HEI_INST_CODE,
+            COURSE.INST_CODE,
+            COURSE.CAMPUS,
+            COURSE.HEI_CRSE_CODE,
+            COURSE.CRSE_CODE,
+            'Y' SCOTTISH,
+            HC.HEI_CRSE_NAME,
+            COURSE.SESSION_CODE,
+            COURSE.DURATION
+       FROM ( SELECT C.CRSE_CODE,
+                      C.CRSE_NAME,
+                      C.INST_CODE,
+                      I.HEI_INST_CODE,
+                      NVL (CY.HEI_CRSE_CODE, C.HEI_CRSE_CODE) HEI_CRSE_CODE,
+                      C.MAINT_CAMPUS CAMPUS,
+                      SUBSTR(CS.MAX_DURATION,1,1) DURATION,
+                      CS.SESSION_CODE SESSION_CODE
+                 FROM SGAS.CRSE C,
+                      SGAS.CRSE_SESSION CS,
+                      SGAS.CRSE_YEAR CY,
+                      SGAS.INST I
+                WHERE     C.CRSE_ID = CS.CRSE_ID
+                      AND CS.SESSION_CODE IN (2018, 2019)
+                      AND C.CRSE_ID = CY.CRSE_ID
+                      AND CS.CRSE_SESSION_ID = CY.CRSE_SESSION_ID
+                      AND I.INST_CODE = C.INST_CODE
+             GROUP BY C.CRSE_CODE,
+                      C.CRSE_NAME,
+                      C.INST_CODE,
+                      I.HEI_INST_CODE,
+                      NVL (CY.HEI_CRSE_CODE, C.HEI_CRSE_CODE),
+                      C.MAINT_CAMPUS,
+                      CS.MAX_DURATION,
+                      CS.SESSION_CODE) COURSE,
+            HEI_CRSE@GRASS HC
+      WHERE     (   COURSE.HEI_CRSE_CODE = HC.HEI_CRSE_CODE
+                 OR COURSE.HEI_CRSE_CODE = TO_CHAR (HC.SLC_COURSE_CODE))
+            AND HC.HEI_INST_CODE = COURSE.HEI_INST_CODE;
+
+
+
+
+COMMIT;
+
+
+TRUNCATE TABLE CURRENT_TERM REUSE STORAGE;
+
+
+Insert into CURRENT_TERM
+   (HEI_CRSE_CODE, ACADEMIC_YEAR, TERM, TERM_START, TERM_END, 
+    SESSION_CODE, FEES)
+SELECT DISTINCT NVL (CY.HEI_CRSE_CODE, C.HEI_CRSE_CODE) HEI_CRSE_CODE,
+                CY.CRSE_YEAR_NO ACADEMIC_YEAR,
+                CT.TERM_NO TERM,
+                CT.START_DATE TERM_START,
+                CT.END_DATE TERM_END,
+                CS.SESSION_CODE SESSION_CODE,
+                NVL (CY.VAR_TUITION_FEE_AMNT, 9250) FEES
+  FROM SGAS.CRSE C,
+       SGAS.CRSE_SESSION CS,
+       SGAS.CRSE_YEAR CY,
+       SGAS.INST I,
+       SGAS.CRSE_TERM CT,
+       HEI_CRSE@GRASS HC
+ WHERE     C.CRSE_ID = CS.CRSE_ID
+       AND CS.SESSION_CODE IN (2018, 2019)
+       AND C.CRSE_ID = CY.CRSE_ID
+       AND CS.CRSE_SESSION_ID = CY.CRSE_SESSION_ID
+       AND I.INST_CODE = C.INST_CODE
+       AND CY.CRSE_YEAR_ID = CT.CRSE_YEAR_ID
+       AND NVL (CY.DEFAULT_TERMS, 'N') != 'Y'
+       AND (   NVL (CY.HEI_CRSE_CODE, C.HEI_CRSE_CODE) = HC.HEI_CRSE_CODE
+            OR NVL (CY.HEI_CRSE_CODE, C.HEI_CRSE_CODE) =
+                  TO_CHAR (HC.SLC_COURSE_CODE))
+       AND HC.HEI_INST_CODE = I.HEI_INST_CODE
+UNION
+SELECT DISTINCT NVL (CY.HEI_CRSE_CODE, C.HEI_CRSE_CODE) HEI_CRSE_CODE,
+                CY.CRSE_YEAR_NO ACADEMIC_YEAR,
+                IT.TERM_NO TERM,
+                IT.START_DATE TERM_START,
+                IT.END_DATE TERM_END,
+                CS.SESSION_CODE SESSION_CODE,
+                NVL (CY.VAR_TUITION_FEE_AMNT, 9250) FEES
+  FROM SGAS.CRSE C,
+       SGAS.CRSE_SESSION CS,
+       SGAS.CRSE_YEAR CY,
+       SGAS.INST I,
+       SGAS.INST_TERM IT,
+       HEI_CRSE@GRASS HC
+ WHERE     C.CRSE_ID = CS.CRSE_ID
+       AND CS.SESSION_CODE IN (2018, 2019)
+       AND C.CRSE_ID = CY.CRSE_ID
+       AND CS.CRSE_SESSION_ID = CY.CRSE_SESSION_ID
+       AND I.INST_CODE = C.INST_CODE
+       AND NVL (CY.DEFAULT_TERMS, 'N') = 'Y'
+       AND (   NVL (CY.HEI_CRSE_CODE, C.HEI_CRSE_CODE) = HC.HEI_CRSE_CODE
+            OR NVL (CY.HEI_CRSE_CODE, C.HEI_CRSE_CODE) =
+                  TO_CHAR (HC.SLC_COURSE_CODE))
+       AND HC.HEI_INST_CODE = I.HEI_INST_CODE
+       AND C.INST_CODE = IT.INST_CODE
+       AND CS.SESSION_CODE = IT.SESSION_CODE;
+
+COMMIT;

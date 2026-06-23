@@ -1,0 +1,9 @@
+ALTER TABLE SGAS.STUD_DEPENDANT 
+    ADD  (EMAIL_ADDR VARCHAR2 (80),
+          HOUSE_NO_NAME VARCHAR2 (32),
+          POST_CODE VARCHAR2 (8),
+          ADDR_L1 VARCHAR2 (65),
+          ADDR_L2 VARCHAR2 (65),
+          ADDR_L3 VARCHAR2 (32),
+          ADDR_L4 VARCHAR2 (32)
+          );

@@ -1,0 +1,85 @@
+-- PAYMENT_STATUS.sql
+-- Description: Table holding all Payment Status
+--
+-- MODIFICATION HISTORY:
+-- Ref      Date        Author                  Desc.
+-- 1.0      27.09.12    A Bowman (SAAS)         Initial Version. 
+--
+-- Configuration Management:
+-- $HeadURL:  $
+-- $Author: $
+-- $Date:  $
+-- $Revision: $
+
+ALTER TABLE sgas.PAYMENT_STATUS
+ DROP PRIMARY KEY CASCADE
+/
+DROP TABLE sgas.PAYMENT_STATUS CASCADE CONSTRAINTS PURGE;
+--
+-- PAYMENT_STATUS  (Table) 
+--
+CREATE TABLE SGAS.PAYMENT_STATUS
+(
+  PAYMENT_STATUS_ID   NUMBER(4)                     NOT NULL,
+  TYPE            VARCHAR2(1)                   NOT NULL,
+  DESCRIPTION     VARCHAR2(25)                  NOT NULL,
+  LAST_UPDATED_BY            VARCHAR2(15 BYTE)  DEFAULT User NOT NULL,
+  LAST_UPDATED_ON            DATE               DEFAULT Sysdate NOT NULL
+)
+TABLESPACE STEPS_DATA
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+ALTER TABLE SGAS.PAYMENT_STATUS ADD (
+  CONSTRAINT PAYMENT_STATUS_PK
+ PRIMARY KEY
+ (PAYMENT_STATUS_ID)
+    USING INDEX 
+    TABLESPACE STEPS_INDEX);
+
+COMMENT ON TABLE payment_status IS 'Table holding all the Payment Statuses used in StEPS';
+
+DROP SEQUENCE SGAS.PAYMENT_STATUS_ID_SEQ;
+
+CREATE SEQUENCE SGAS.PAYMENT_STATUS_ID_SEQ
+  START WITH 1
+  MAXVALUE 999999999999
+  MINVALUE 1
+  NOCYCLE
+  NOCACHE
+  NOORDER;
+
+
+CREATE OR REPLACE TRIGGER SGAS.TRIG_PAYMENT_STATUS_ID_SEQ
+   BEFORE INSERT
+   ON SGAS.PAYMENT_STATUS    FOR EACH ROW
+BEGIN
+   SELECT PAYMENT_STATUS_ID_SEQ.NEXTVAL
+     INTO :NEW.PAYMENT_STATUS_ID
+     FROM DUAL;
+END;
+SHOW ERRORS;
+
+
+--
+-- INSERT DATA
+--
+
+INSERT INTO PAYMENT_STATUS
+            (type, description
+            )
+     VALUES ('S', 'SUCCESS'
+            );
+
+
+INSERT INTO PAYMENT_STATUS
+            (type, description
+            )
+     VALUES ('R', 'RETURNED'
+            );
+
+
+commit;

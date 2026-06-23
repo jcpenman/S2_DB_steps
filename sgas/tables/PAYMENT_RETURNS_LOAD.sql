@@ -1,0 +1,125 @@
+-- PAYMENT_RETURNS_LOAD.sql
+-- Description: This table is used to hold details of the payment returns load
+-- 
+--
+-- MODIFICATION HISTORY:
+-- Ref      Date        Author                  Desc.
+-- 1.0      23.09.11    P.Hughes (SAAS)         Initial Version.
+-- 1.1      26.09.11    A.Bowman (SAAS)         Added bells and whistles to script  
+-- 
+--
+-- Configuration Management:
+-- $HeadURL:  $
+-- $Author: $
+-- $Date:  $
+-- $Revision: $
+
+
+DROP TABLE SGAS.PAYMENT_RETURNS_LOAD CASCADE CONSTRAINTS PURGE
+/
+
+--
+-- PAYMENT_RETURNS_LOAD  (Table) 
+--
+
+CREATE TABLE SGAS.PAYMENT_RETURNS_LOAD
+(
+  PAYMENT_RETURNS_LOAD_ID        NUMBER(10) NOT NULL, 
+  RETURNS_DATE                   DATE NOT NULL,
+  RETURNS_AMOUNT                 NUMBER(9,2) NOT NULL,
+  RECEIPT_TYPE_ID                VARCHAR2(1 BYTE) NOT NULL,
+  RETURNS_STATUS                 VARCHAR2(1 BYTE) NOT NULL,
+  PROCESS_DATE                   DATE NOT NULL,
+  PAYEE_PAYMENT_ID               NUMBER(10),
+  PAYEE_ID                       NUMBER(10),
+  PAYEE_REF_ID                   NUMBER(10),
+  IDENTIFIED_RETURN              VARCHAR2(1 BYTE) NOT NULL,
+  NOTES                          VARCHAR2(100),
+  LAST_UPDATED_BY                VARCHAR2(15 BYTE)  DEFAULT User NOT NULL,
+  LAST_UPDATED_ON                DATE               DEFAULT Sysdate NOT NULL  
+
+
+)
+TABLESPACE USERS
+PCTUSED    0
+PCTFREE    10
+INITRANS   2
+MAXTRANS   255
+STORAGE    (
+            INITIAL          3400K
+            MINEXTENTS       1
+            MAXEXTENTS       2147483645
+            PCTINCREASE      0
+            BUFFER_POOL      DEFAULT
+           )
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+COMMENT ON TABLE SGAS.PAYMENT_RETURNS_LOAD IS 'table is used to hold details of the payment returns load';
+
+CREATE UNIQUE INDEX PAYMENT_RTNS_LOAD_PK ON SGAS.PAYMENT_RETURNS_LOAD
+(PAYMENT_RETURNS_LOAD_ID)
+LOGGING
+TABLESPACE USERS
+PCTFREE    10
+INITRANS   2
+MAXTRANS   255
+STORAGE    (
+            INITIAL          64K
+            MINEXTENTS       1
+            MAXEXTENTS       2147483645
+            PCTINCREASE      0
+            BUFFER_POOL      DEFAULT
+           )
+NOPARALLEL;
+
+
+ALTER TABLE PAYMENT_RETURNS_LOAD ADD (
+  CONSTRAINT PAYMENT_RETURNS_LOAD_PK
+ PRIMARY KEY
+ (PAYMENT_RETURNS_LOAD_ID)
+    USING INDEX 
+    TABLESPACE USERS
+    PCTFREE    10
+    INITRANS   2
+    MAXTRANS   255
+    STORAGE    (
+                INITIAL          64K
+                MINEXTENTS       1
+                MAXEXTENTS       2147483645
+                PCTINCREASE      0
+               ));
+
+-- 
+-- Create public synonym 
+-- 
+
+DROP PUBLIC SYNONYM PAYMENT_RETURNS_LOAD
+/
+CREATE PUBLIC SYNONYM PAYMENT_RETURNS_LOAD FOR sgas.PAYMENT_RETURNS_LOAD
+/
+ 
+DROP SEQUENCE SGAS.PAYMENT_RETURNS_LOAD_ID_SEQ;              
+               
+CREATE SEQUENCE SGAS.PAYMENT_RETURNS_LOAD_ID_SEQ
+  START WITH 1
+  MAXVALUE 9999999999
+  MINVALUE 1
+  NOCYCLE
+  NOCACHE
+  NOORDER
+/
+
+CREATE OR REPLACE TRIGGER SGAS.TRIG_PAYMENT_RETURNS_LOAD_SEQ 
+   BEFORE INSERT
+   ON SGAS.PAYMENT_RETURNS_LOAD
+   FOR EACH ROW
+BEGIN
+   SELECT PAYMENT_RETURNS_LOAD_ID_SEQ.NEXTVAL
+     INTO :NEW.PAYMENT_RETURNS_LOAD_ID
+     FROM DUAL;
+END;
+

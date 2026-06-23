@@ -1,0 +1,25 @@
+/* Formatted on 17/10/2018 11:17:30 (QP5 v5.256.13226.35538) */
+DROP DIRECTORY SLC_TERM_DATE_DIR;
+
+
+DECLARE
+   v_db    VARCHAR2 (1000);
+   v_sql   VARCHAR2 (4000);
+BEGIN
+   SELECT name INTO v_db FROM v$database;
+
+   v_sql :=
+         'CREATE OR REPLACE DIRECTORY SLC_TERM_DATE_DIR AS '
+      || '''/projects/app/webmethods/share/'
+      || v_db
+      || '/reports/SLC_TermDates''';
+
+   EXECUTE IMMEDIATE v_sql;
+END;
+--GRANT EXECUTE, READ, WRITE ON DIRECTORY SLC_TERM_DATE_DIR TO SGAS WITH GRANT OPTION;
+
+GRANT EXECUTE, READ, WRITE
+   ON DIRECTORY SLC_TERM_DATE_DIR
+   TO SLCADMIN
+   WITH GRANT OPTION;
+

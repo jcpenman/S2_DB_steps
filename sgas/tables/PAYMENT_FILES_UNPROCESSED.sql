@@ -1,0 +1,122 @@
+/******************************************************************************
+TABLE NAME: PAYMENT_FILES_UNPROCESSED        
+DESCRIPTION: Table holding details of unprocessed payment files
+
+MODIFICATION HISTORY:
+Ver        Date        Author           Description
+---------  ----------  ---------------  ------------------------------------
+1.0        12.10.2010  A.Bowman         Initial Version 
+1.1        03.11.2010  A.Bowman         Added trigger for pk sequence
+
+
+CONFIGURATION MANAGEMENT:
+-------------------------
+$HeadURL:  $ 
+$Author:  $ 
+$Date:  $ 
+$Revision:  $ 
+ 
+*******************************************************************************/
+ 
+ALTER TABLE SGAS.PAYMENT_FILES_UNPROCESSED
+ DROP PRIMARY KEY CASCADE
+/
+DROP TABLE SGAS.PAYMENT_FILES_UNPROCESSED CASCADE CONSTRAINTS PURGE
+/
+--
+-- PAYMENT_FILES_UNPROCESSED  (Table) 
+--
+CREATE TABLE SGAS.PAYMENT_FILES_UNPROCESSED
+( PAYMENT_FILE_ID           NUMBER(9) NOT NULL,
+  FILENAME                  VARCHAR2(50 BYTE) NOT NULL,
+  TYPE_CODE                 VARCHAR2(1 BYTE) NOT NULL,
+  DATE_CREATED              DATE DEFAULT Sysdate NOT NULL
+)
+TABLESPACE USERS
+PCTUSED    0
+PCTFREE    10
+INITRANS   1
+MAXTRANS   255
+STORAGE    (
+            INITIAL          64K
+            MINEXTENTS       1
+            MAXEXTENTS       2147483645
+            PCTINCREASE      0
+            BUFFER_POOL      DEFAULT
+           )
+LOGGING 
+NOCOMPRESS 
+NOCACHE
+NOPARALLEL
+MONITORING;
+
+CREATE UNIQUE INDEX PFU_PK ON SGAS.PAYMENT_FILES_UNPROCESSED
+(PAYMENT_FILE_ID)
+LOGGING
+TABLESPACE users
+PCTFREE    10
+INITRANS   2
+MAXTRANS   255
+STORAGE    (
+            INITIAL          64 k
+            MINEXTENTS       1
+            MAXEXTENTS       2147483645
+            PCTINCREASE      0
+            BUFFER_POOL      DEFAULT
+           )
+NOPARALLEL;
+
+ALTER TABLE SGAS.PAYMENT_FILES_UNPROCESSED ADD (
+  CONSTRAINT PAYMENT_FILES_UNPROCESSED_PK
+ PRIMARY KEY
+ (PAYMENT_FILE_ID)
+    USING INDEX
+    TABLESPACE users
+    PCTFREE    10
+    INITRANS   2
+    MAXTRANS   255
+    STORAGE    (
+                INITIAL          64 k
+                MINEXTENTS       1
+                MAXEXTENTS       2147483645
+                PCTINCREASE      0
+               ));
+
+ALTER TABLE SGAS.PAYMENT_FILES_UNPROCESSED ADD (
+  CONSTRAINT F1_PFU
+ FOREIGN KEY (TYPE_CODE) 
+ REFERENCES SGAS.PAYMENT_FILE_REF (TYPE_CODE));
+
+-- 
+-- Create public synonym: 
+-- 
+DROP PUBLIC SYNONYM PAYMENT_FILES_UNPROCESSED
+/
+
+CREATE PUBLIC SYNONYM PAYMENT_FILES_UNPROCESSED FOR SGAS.PAYMENT_FILES_UNPROCESSED
+/
+
+DROP SEQUENCE SGAS.PFU_ID_SEQ
+/
+--
+-- PFU_ID_SEQ  (Sequence) 
+--
+CREATE SEQUENCE SGAS.PFU_ID_SEQ
+  START WITH 1
+  MAXVALUE 999999999
+  MINVALUE 1
+  NOCYCLE
+  NOCACHE
+  NOORDER
+/
+
+
+CREATE OR REPLACE TRIGGER sgas.trig_pfu_id_seq
+   BEFORE INSERT
+   ON SGAS.PAYMENT_FILES_UNPROCESSED
+   FOR EACH ROW
+BEGIN
+   SELECT pfu_id_seq.NEXTVAL
+     INTO :NEW.PAYMENT_FILE_ID
+     FROM DUAL;
+END;

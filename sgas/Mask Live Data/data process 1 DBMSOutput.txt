@@ -1,0 +1,632 @@
+﻿28-NOV-16 12.02.34.091075000 +00:00mask_data_process Tables being processed: ADI_JOURNAL_AUD
+28-NOV-16 12.02.34.106628000 +00:00mask_data_process Tables being processed: ADJUST
+28-NOV-16 12.02.34.684512000 +00:00mask_data_process Tables being processed: APPLIC_REG
+28-NOV-16 12.02.34.764309000 +00:00mask_data_process Tables being processed: ATTENDANCE_DATA_RECEIVED
+28-NOV-16 12.02.34.878893000 +00:00mask_data_process Tables being processed: AUTHENTICATE_STUD
+28-NOV-16 12.02.34.899167000 +00:00mask_data_process Tables being processed: AUTHENTICATE_STUD_AUD
+28-NOV-16 12.02.34.915142000 +00:00mask_data_process Tables being processed: AWARD
+28-NOV-16 12.02.34.995084000 +00:00mask_data_process Tables being processed: AWARD_AUD
+28-NOV-16 12.02.35.010854000 +00:00mask_data_process Tables being processed: AWARD_AUD_E56
+28-NOV-16 12.02.35.024683000 +00:00mask_data_process Tables being processed: AWARD_INSTALMENT_AUD
+28-NOV-16 12.02.35.043325000 +00:00mask_data_process Tables being processed: AWARD_LETTER_ERRORS
+28-NOV-16 12.02.35.080038000 +00:00mask_data_process Tables being processed: BANK_CHANGE_EXC
+28-NOV-16 12.02.35.093507000 +00:00mask_data_process Tables being processed: BATCH_RECALC
+28-NOV-16 12.02.35.105273000 +00:00mask_data_process Tables being processed: BENEFACTOR_AUD
+28-NOV-16 12.02.35.120000000 +00:00mask_data_process Tables being processed: BENEFACTOR_DEPENDANT_AUD
+28-NOV-16 12.02.35.135021000 +00:00mask_data_process Tables being processed: BENEFACTOR_INCOME_AUD
+28-NOV-16 12.02.35.161772000 +00:00mask_data_process Tables being processed: COC_TASKS
+28-NOV-16 12.02.35.180836000 +00:00mask_data_process Tables being processed: COMPLETED_SHWAP
+28-NOV-16 12.02.35.194869000 +00:00mask_data_process Tables being processed: COMPLETE_TASK_DATA
+28-NOV-16 12.02.35.226464000 +00:00mask_data_process Tables being processed: COMPLETE_WEB_APPLICATIONS
+28-NOV-16 12.02.36.137145000 +00:00mask_data_process Tables being processed: CORRES
+28-NOV-16 12.02.36.216858000 +00:00mask_data_process Tables being processed: COUNTRY_AUD
+28-NOV-16 12.02.36.234799000 +00:00mask_data_process Tables being processed: DSA_ALLOWANCE_AUD
+28-NOV-16 12.02.36.251433000 +00:00mask_data_process Tables being processed: DSA_APPLICATION
+28-NOV-16 12.02.36.299128000 +00:00mask_data_process Tables being processed: DSA_APPLICATION_AUD
+28-NOV-16 12.02.36.324009000 +00:00mask_data_process Tables being processed: DSA_CATEGORY_AUD
+28-NOV-16 12.02.36.345534000 +00:00mask_data_process Tables being processed: DSA_PAYMENT_AUD
+28-NOV-16 12.02.36.361970000 +00:00mask_data_process Tables being processed: EDM_IMAGES
+28-NOV-16 12.02.36.433543000 +00:00mask_data_process Tables being processed: EDOC_ACTIVE_TASK_LIST
+28-NOV-16 12.02.36.451288000 +00:00mask_data_process Tables being processed: EDOC_ALL_TASK_LIST
+28-NOV-16 12.02.36.463564000 +00:00mask_data_process Tables being processed: EMAIL_MPHONE_CHANGE_EXC
+28-NOV-16 12.02.36.508395000 +00:00mask_data_process Tables being processed: FEE_LOAN_TRANSACTION
+28-NOV-16 12.02.36.575430000 +00:00mask_data_process Tables being processed: FEE_PAYMENT_DATE_AUD
+28-NOV-16 12.02.36.592589000 +00:00mask_data_process Tables being processed: FINANCE_REVERSAL_JOURNAL_AUD
+28-NOV-16 12.02.36.616294000 +00:00mask_data_process Tables being processed: FIX_TASKS
+28-NOV-16 12.02.36.636330000 +00:00mask_data_process Tables being processed: HOME_ADDR_CHANGE_EXC
+28-NOV-16 12.02.36.652124000 +00:00mask_data_process Tables being processed: JA_CASE_AUD
+28-NOV-16 12.02.36.668632000 +00:00mask_data_process Tables being processed: LOAN_CONTACTS_CHANGE_EXC
+28-NOV-16 12.02.36.685374000 +00:00mask_data_process Tables being processed: LR_PROV_INCOME
+28-NOV-16 12.02.36.696527000 +00:00mask_data_process Tables being processed: NMSB_SPEC_ARR
+28-NOV-16 12.02.36.732177000 +00:00mask_data_process Tables being processed: NOMINEE_AUD
+28-NOV-16 12.02.36.751207000 +00:00mask_data_process Tables being processed: NON_AWARD_PAYMENT_DATE_AUD
+28-NOV-16 12.02.36.766733000 +00:00mask_data_process Tables being processed: ONLINE_APP_STATUS_WEB
+28-NOV-16 12.02.36.778317000 +00:00mask_data_process Tables being processed: OTHER_CHANGE_EXC
+28-NOV-16 12.02.36.790506000 +00:00mask_data_process Tables being processed: PASSWORD_LETTER_REQUEST
+28-NOV-16 12.02.36.807713000 +00:00mask_data_process Tables being processed: PAYEE_AUD
+28-NOV-16 12.02.36.838490000 +00:00mask_data_process Tables being processed: PAYEE_PAYMENT_AUD
+28-NOV-16 12.02.36.855759000 +00:00mask_data_process Tables being processed: PAYMENT_ERRORS
+28-NOV-16 12.02.36.883575000 +00:00mask_data_process Tables being processed: PAYMENT_ERRORS_TEMP
+28-NOV-16 12.02.36.898222000 +00:00mask_data_process Tables being processed: PAYMENT_INSTALMENT
+28-NOV-16 12.02.37.042958000 +00:00mask_data_process Tables being processed: PAYMENT_INSTALMENT_AUD
+28-NOV-16 12.02.37.065370000 +00:00mask_data_process Tables being processed: PAYMENT_RETURNS
+28-NOV-16 12.02.37.086034000 +00:00mask_data_process Tables being processed: PAYMENT_RETURNS_LOAD
+28-NOV-16 12.02.37.105497000 +00:00mask_data_process Tables being processed: PAYMENT_RETURN_ERRORS
+28-NOV-16 12.02.37.123992000 +00:00mask_data_process Tables being processed: PROCESS_INSTANCE_APP_G28
+28-NOV-16 12.02.37.145817000 +00:00mask_data_process Tables being processed: PROCESS_INSTANCE_DATA
+28-NOV-16 12.02.37.223558000 +00:00mask_data_process Tables being processed: PROCESS_INSTANCE_DATA_RESTORE
+28-NOV-16 12.02.37.239721000 +00:00mask_data_process Tables being processed: PT_STUD_DEPENDANT
+28-NOV-16 12.02.37.294450000 +00:00mask_data_process Tables being processed: PT_STUD_INCOME
+28-NOV-16 12.02.37.347990000 +00:00mask_data_process Tables being processed: QA_CASES
+28-NOV-16 12.02.37.366192000 +00:00mask_data_process Tables being processed: RUK_AWARD
+28-NOV-16 12.02.37.388101000 +00:00mask_data_process Tables being processed: SCOAP_BATCHES_AUD
+28-NOV-16 12.02.37.412425000 +00:00mask_data_process Tables being processed: SHORT_APP_STUD_INFO
+28-NOV-16 12.02.37.474101000 +00:00mask_data_process Tables being processed: SHWAP
+28-NOV-16 12.02.37.530204000 +00:00mask_data_process Tables being processed: SHWAP_2015
+28-NOV-16 12.02.37.562124000 +00:00mask_data_process Tables being processed: SHWAP_CHECK
+28-NOV-16 12.02.37.596111000 +00:00mask_data_process Tables being processed: SLC_ERRORS
+28-NOV-16 12.02.37.612180000 +00:00mask_data_process Tables being processed: STEPS_QA_DATA_AUD
+28-NOV-16 12.02.37.629194000 +00:00mask_data_process Tables being processed: STUD_APP_PROG
+28-NOV-16 12.02.37.692739000 +00:00mask_data_process Tables being processed: STUD_APP_PROG_AUD
+28-NOV-16 12.02.37.709187000 +00:00mask_data_process Tables being processed: STUD_APP_PROG_WEB
+28-NOV-16 12.02.37.746465000 +00:00mask_data_process Tables being processed: STUD_AUD
+28-NOV-16 12.02.37.762896000 +00:00mask_data_process Tables being processed: STUD_CONT_DETAILS
+28-NOV-16 12.02.37.855745000 +00:00mask_data_process Tables being processed: STUD_CONT_DETAILS_AUD
+28-NOV-16 12.02.37.878812000 +00:00mask_data_process Tables being processed: STUD_CONT_DETAILS_WEB
+28-NOV-16 12.02.37.897572000 +00:00mask_data_process Tables being processed: STUD_CRSE_YEAR
+28-NOV-16 12.02.38.092336000 +00:00mask_data_process Tables being processed: STUD_CRSE_YEAR_AUD
+28-NOV-16 12.02.38.114944000 +00:00mask_data_process Tables being processed: STUD_CRSE_YEAR_WEB
+28-NOV-16 12.02.38.168320000 +00:00mask_data_process Tables being processed: STUD_DEPENDANT
+28-NOV-16 12.02.38.243709000 +00:00mask_data_process Tables being processed: STUD_DEPENDANT_AUD
+28-NOV-16 12.02.38.261170000 +00:00mask_data_process Tables being processed: STUD_HOME_ADDR
+28-NOV-16 12.02.38.336164000 +00:00mask_data_process Tables being processed: STUD_HOME_ADDR_AUD
+28-NOV-16 12.02.38.354371000 +00:00mask_data_process Tables being processed: STUD_HOME_ADDR_WEB
+28-NOV-16 12.02.38.407373000 +00:00mask_data_process Tables being processed: STUD_MESSAGE
+28-NOV-16 12.02.38.469763000 +00:00mask_data_process Tables being processed: STUD_NOMINEE
+28-NOV-16 12.02.38.490410000 +00:00mask_data_process Tables being processed: STUD_NOMINEE_AUD
+28-NOV-16 12.02.38.517404000 +00:00mask_data_process Tables being processed: STUD_NOTES
+28-NOV-16 12.02.38.582920000 +00:00mask_data_process Tables being processed: STUD_NOTES_TMP
+28-NOV-16 12.02.38.598752000 +00:00mask_data_process Tables being processed: STUD_SESSION
+28-NOV-16 12.02.38.811877000 +00:00mask_data_process Tables being processed: STUD_SESSION_AUD
+28-NOV-16 12.02.38.829666000 +00:00mask_data_process Tables being processed: STUD_SESSION_WEB
+28-NOV-16 12.02.38.877986000 +00:00mask_data_process Tables being processed: STUD_TERM_ADDR
+28-NOV-16 12.02.38.957971000 +00:00mask_data_process Tables being processed: STUD_TERM_ADDR_AUD
+28-NOV-16 12.02.38.975681000 +00:00mask_data_process Tables being processed: STUD_TERM_ADDR_WEB
+28-NOV-16 12.02.39.016181000 +00:00mask_data_process Tables being processed: STUD_TRACK
+28-NOV-16 12.02.39.076479000 +00:00mask_data_process Tables being processed: STUD_TRAV_PROG
+28-NOV-16 12.02.39.131386000 +00:00mask_data_process Tables being processed: STUD_TRAV_PROG_WEB
+28-NOV-16 12.02.39.181508000 +00:00mask_data_process Tables being processed: STUD_WEB
+28-NOV-16 12.02.39.400355000 +00:00mask_data_process Tables being processed: SUSPEND
+28-NOV-16 12.02.39.416301000 +00:00mask_data_process Tables being processed: SW_2016_SHWAP_MASTER
+28-NOV-16 12.02.39.433671000 +00:00mask_data_process Tables being processed: TELEPHONY
+28-NOV-16 12.02.39.446712000 +00:00mask_data_process Tables being processed: TELEPHONY_MIS
+28-NOV-16 12.02.39.492751000 +00:00mask_data_process Tables being processed: TERM_ADDR_CHANGE_EXC
+28-NOV-16 12.02.39.507212000 +00:00mask_data_process Tables being processed: TITLE_NAME_CHANGE_EXC
+28-NOV-16 12.02.39.519779000 +00:00mask_data_process Tables being processed: WEB_ADDR_CHGE_DETS
+28-NOV-16 12.02.39.534057000 +00:00mask_data_process Tables being processed: WEB_SHWAP
+28-NOV-16 12.02.39.570067000 +00:00mask_data_process Tables being processed: STUD
+28-NOV-16 12.02.39.722793000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 12.02.39.722910000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 12.02.39.722970000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ ADI_JOURNAL_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 12.04.12.422452000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ ADI_JOURNAL_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 12.04.12.431435000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ ADI_JOURNAL_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 12.04.12.432053000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 12.04.12.432106000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 12.04.12.432153000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ ADJUST T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 12.04.12.449352000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ ADJUST T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 12.04.12.449581000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ ADJUST T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 12.04.12.449965000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 12.04.12.450008000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 12.04.12.450044000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ APPLIC_REG T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 12.04.12.463520000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ APPLIC_REG T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 12.04.12.463724000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ APPLIC_REG T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 12.04.12.464087000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 12.04.12.464130000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 12.04.12.464164000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ ATTENDANCE_DATA_RECEIVED T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.28.59.861854000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ ATTENDANCE_DATA_RECEIVED T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.28.59.868223000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ ATTENDANCE_DATA_RECEIVED T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.28.59.868860000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 13.28.59.868910000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 13.28.59.868951000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ AUTHENTICATE_STUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.28.59.959778000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ AUTHENTICATE_STUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.28.59.960004000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ AUTHENTICATE_STUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.28.59.960457000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 13.28.59.960503000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 13.28.59.960540000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ AUTHENTICATE_STUD_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.40.03.609398000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ AUTHENTICATE_STUD_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.40.03.627913000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ AUTHENTICATE_STUD_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.40.03.628526000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 13.40.03.628574000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 13.40.03.628612000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ AWARD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.42.12.058657000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ AWARD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.42.12.103360000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ AWARD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.42.12.103975000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 13.42.12.104023000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 13.42.12.104062000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ AWARD_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.58.27.706135000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ AWARD_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.58.27.711902000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ AWARD_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.58.27.712503000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 13.58.27.712550000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 13.58.27.712588000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ AWARD_AUD_E56 T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.58.28.071942000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ AWARD_AUD_E56 T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.58.28.072404000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ AWARD_AUD_E56 T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 13.58.28.072869000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 13.58.28.072921000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 13.58.28.072963000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ AWARD_INSTALMENT_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.31.21.946008000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ AWARD_INSTALMENT_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.31.21.951331000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ AWARD_INSTALMENT_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.31.21.951868000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.31.21.951916000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.31.21.951956000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ AWARD_LETTER_ERRORS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.31.22.061787000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ AWARD_LETTER_ERRORS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.31.22.062016000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ AWARD_LETTER_ERRORS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.31.22.062471000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.31.22.062516000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.31.22.062552000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ BANK_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.31.22.099553000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ BANK_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.31.22.099777000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ BANK_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.31.22.100281000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.31.22.100333000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.31.22.100373000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ BATCH_RECALC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.31.35.968061000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ BATCH_RECALC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.31.35.970448000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ BATCH_RECALC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.31.35.971017000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.31.35.971065000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.31.35.971104000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ BENEFACTOR_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.33.04.183643000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ BENEFACTOR_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.33.04.218587000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ BENEFACTOR_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.33.04.219200000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.33.04.219246000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.33.04.219284000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ BENEFACTOR_DEPENDANT_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.33.12.047973000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ BENEFACTOR_DEPENDANT_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.33.12.050225000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ BENEFACTOR_DEPENDANT_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.33.12.050844000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.33.12.050895000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.33.12.050935000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ BENEFACTOR_INCOME_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.39.28.612679000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ BENEFACTOR_INCOME_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.39.28.635071000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ BENEFACTOR_INCOME_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.39.28.635694000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.39.28.635740000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.39.28.635778000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ COC_TASKS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.39.28.779934000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ COC_TASKS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.39.28.780444000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ COC_TASKS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.39.28.780946000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.39.28.780998000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.39.28.781035000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ COMPLETED_SHWAP T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.39.28.861943000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ COMPLETED_SHWAP T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.39.28.862173000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ COMPLETED_SHWAP T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.39.28.862660000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.39.28.862709000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.39.28.862747000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ COMPLETE_TASK_DATA T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.41.26.361932000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ COMPLETE_TASK_DATA T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.41.26.373709000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ COMPLETE_TASK_DATA T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.41.26.374325000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.41.26.374375000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.41.26.374417000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ COMPLETE_WEB_APPLICATIONS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.41.26.400351000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ COMPLETE_WEB_APPLICATIONS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.41.26.400599000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ COMPLETE_WEB_APPLICATIONS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.41.26.401043000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.41.26.401087000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.41.26.401122000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ CORRES T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.41.26.426798000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ CORRES T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.41.26.427037000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ CORRES T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.41.26.427454000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.41.26.427498000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.41.26.427532000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ COUNTRY_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.41.26.479639000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ COUNTRY_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.41.26.479983000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ COUNTRY_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.41.26.480573000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.41.26.480650000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.41.26.480695000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ DSA_ALLOWANCE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.42.07.970688000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ DSA_ALLOWANCE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.42.08.000777000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ DSA_ALLOWANCE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.42.08.001485000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.42.08.001535000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.42.08.001572000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ DSA_APPLICATION T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.42.09.018542000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ DSA_APPLICATION T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.42.09.020380000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ DSA_APPLICATION T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.42.09.021408000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.42.09.021513000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.42.09.021562000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ DSA_APPLICATION_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.42.27.214140000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ DSA_APPLICATION_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.42.27.227230000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ DSA_APPLICATION_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.42.27.227846000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.42.27.227893000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.42.27.227931000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ DSA_CATEGORY_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.42.27.240550000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ DSA_CATEGORY_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.42.27.240755000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ DSA_CATEGORY_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.42.27.241119000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.42.27.241162000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.42.27.241197000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ DSA_PAYMENT_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.43.25.450112000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ DSA_PAYMENT_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.43.25.497432000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ DSA_PAYMENT_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.43.25.498054000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.43.25.498102000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.43.25.498140000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ EDM_IMAGES T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.32.115905000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ EDM_IMAGES T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.32.121933000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ EDM_IMAGES T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.32.122549000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.32.122596000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.32.122635000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ EDOC_ACTIVE_TASK_LIST T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.32.190930000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ EDOC_ACTIVE_TASK_LIST T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.32.191462000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ EDOC_ACTIVE_TASK_LIST T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.32.191945000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.32.191995000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.32.192032000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ EDOC_ALL_TASK_LIST T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.52.816341000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ EDOC_ALL_TASK_LIST T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.52.825460000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ EDOC_ALL_TASK_LIST T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.52.826061000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.52.826111000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.52.826150000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ EMAIL_MPHONE_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.52.894165000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ EMAIL_MPHONE_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.52.894592000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ EMAIL_MPHONE_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.52.895063000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.52.895110000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.52.895147000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ FEE_LOAN_TRANSACTION T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.53.858759000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ FEE_LOAN_TRANSACTION T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.53.860067000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ FEE_LOAN_TRANSACTION T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.53.860640000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.53.860696000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.53.860736000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ FEE_PAYMENT_DATE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.53.915806000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ FEE_PAYMENT_DATE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.53.916588000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ FEE_PAYMENT_DATE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.53.917146000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.53.917216000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.53.917258000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ FINANCE_REVERSAL_JOURNAL_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.53.933264000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ FINANCE_REVERSAL_JOURNAL_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.53.933528000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ FINANCE_REVERSAL_JOURNAL_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.53.934045000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.53.934123000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.53.934171000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ FIX_TASKS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.54.013681000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ FIX_TASKS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.54.014043000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ FIX_TASKS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.54.014579000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.54.014660000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.54.014704000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ HOME_ADDR_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.54.050748000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ HOME_ADDR_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.54.050984000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ HOME_ADDR_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.54.051455000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.54.051503000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.54.051540000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ JA_CASE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.57.587510000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ JA_CASE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.57.590866000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ JA_CASE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.57.591480000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.57.591527000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.57.591566000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ LOAN_CONTACTS_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.57.632474000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ LOAN_CONTACTS_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.57.632877000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ LOAN_CONTACTS_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.57.633318000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.57.633364000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.57.633402000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ LR_PROV_INCOME T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.57.906978000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ LR_PROV_INCOME T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.57.907384000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ LR_PROV_INCOME T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.57.907876000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.57.907923000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.57.907962000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ NMSB_SPEC_ARR T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.57.931991000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ NMSB_SPEC_ARR T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.57.932211000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ NMSB_SPEC_ARR T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.57.932587000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.57.932631000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.57.932667000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ NOMINEE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.826610000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ NOMINEE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.828023000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ NOMINEE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.828524000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.58.828577000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.58.828616000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ NON_AWARD_PAYMENT_DATE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.862058000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ NON_AWARD_PAYMENT_DATE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.862385000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ NON_AWARD_PAYMENT_DATE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.862851000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.58.862897000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.58.862936000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ ONLINE_APP_STATUS_WEB T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.898753000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ ONLINE_APP_STATUS_WEB T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.899096000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ ONLINE_APP_STATUS_WEB T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.899600000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.58.899658000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.58.899701000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ OTHER_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.911574000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ OTHER_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.911813000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ OTHER_CHANGE_EXC T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.912214000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.58.912257000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.58.912292000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ PASSWORD_LETTER_REQUEST T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.954377000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ PASSWORD_LETTER_REQUEST T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.954727000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ PASSWORD_LETTER_REQUEST T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.48.58.955173000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.48.58.955219000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.48.58.955256000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ PAYEE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.49.47.957022000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ PAYEE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.49.47.981274000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ PAYEE_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 15.49.47.981882000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 15.49.47.981929000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 15.49.47.981967000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ PAYEE_PAYMENT_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 16.23.08.434062000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ PAYEE_PAYMENT_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 16.23.08.465748000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ PAYEE_PAYMENT_AUD T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 16.23.08.466367000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 16.23.08.466415000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 16.23.08.466455000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ PAYMENT_ERRORS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 16.23.09.043500000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ PAYMENT_ERRORS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 16.23.09.044354000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ PAYMENT_ERRORS T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 16.23.09.044802000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 16.23.09.044848000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 16.23.09.044886000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ PAYMENT_ERRORS_TEMP T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 16.23.09.087776000 +00:00mask_data_process UPDATE completed: UPDATE /*+ PARALLEL(T,10) */ PAYMENT_ERRORS_TEMP T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 16.23.09.088120000 +00:00mask_data_process UPDATE COMMITED: UPDATE /*+ PARALLEL(T,10) */ PAYMENT_ERRORS_TEMP T SET STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+28-NOV-16 16.23.09.088606000 +00:00mask_data_process Column being processed: ACCOUNT_NAME
+28-NOV-16 16.23.09.088656000 +00:00mask_data_process Column processed: ACCOUNT_NAME
+28-NOV-16 16.23.09.088684000 +00:00mask_data_process Column being processed: SORT_CODE
+28-NOV-16 16.23.09.088719000 +00:00mask_data_process Column processed: SORT_CODE
+28-NOV-16 16.23.09.088744000 +00:00mask_data_process Column being processed: ACCOUNT_NO
+28-NOV-16 16.23.09.088775000 +00:00mask_data_process Column processed: ACCOUNT_NO
+28-NOV-16 16.23.09.088800000 +00:00mask_data_process Column being processed: PAYEE_ADDRL1
+28-NOV-16 16.23.09.088835000 +00:00mask_data_process Column processed: PAYEE_ADDRL1
+28-NOV-16 16.23.09.088859000 +00:00mask_data_process Column being processed: PAYEE_ADDRL2
+28-NOV-16 16.23.09.088891000 +00:00mask_data_process Column processed: PAYEE_ADDRL2
+28-NOV-16 16.23.09.088915000 +00:00mask_data_process Column being processed: PAYEE_ADDRL3
+28-NOV-16 16.23.09.088950000 +00:00mask_data_process Column processed: PAYEE_ADDRL3
+28-NOV-16 16.23.09.088974000 +00:00mask_data_process Column being processed: PAYEE_POSTCODE
+28-NOV-16 16.23.09.089008000 +00:00mask_data_process Column processed: PAYEE_POSTCODE
+28-NOV-16 16.23.09.089031000 +00:00mask_data_process Column being processed: STUD_REF_NO
+28-NOV-16 16.23.09.089062000 +00:00mask_data_process Column processed: STUD_REF_NO
+28-NOV-16 16.23.09.089094000 +00:00mask_data_process UPDATE being processed: UPDATE /*+ PARALLEL(T,10) */ PAYMENT_INSTALMENT T SET ACCOUNT_NAME = NVL((select forenames||' 'surname from zz_mask_stud_name m where m.stud_ref_no = T.stud_ref_no),ACCOUNT_NAME), SORT_CODE = DECODE(PAYMENT_METHOD,'C',SORT_CODE,'200415'), ACCOUNT_NO = DECODE(PAYMENT_METHOD,'C',ACCOUNT_NO,'38290008'), PAYEE_ADDRL1 = NVL((SELECT DECODE(T.PAYMENT_METHOD,'C',SUBSTR(M.ADDR_L1,1,30),t.PAYEE_ADDRL1) from zz_mask_stud_address m where m.stud_ref_no = T.stud_ref_no),PAYEE_ADDRL1), PAYEE_ADDRL2 = NVL((SELECT DECODE(T.PAYMENT_METHOD,'C',SUBSTR(M.ADDR_L2,1,30),t.PAYEE_ADDRL2) from zz_mask_stud_address m where m.stud_ref_no = T.stud_ref_no),PAYEE_ADDRL2), PAYEE_ADDRL3 = NVL((SELECT DECODE(T.PAYMENT_METHOD,'C',SUBSTR(M.ADDR_L3,1,30),t.PAYEE_ADDRL3) from zz_mask_stud_address m where m.stud_ref_no = T.stud_ref_no),PAYEE_ADDRL3), PAYEE_POSTCODE = NVL((SELECT DECODE(T.PAYMENT_METHOD,'C',SUBSTR(M.POST_CODE,1,30),t.PAYEE_POSTCODE) from zz_mask_stud_address m where m.stud_ref_no = T.stud_ref_no),PAYEE_POSTCODE), STUD_REF_NO = NVL((select r.new_value_number from zz_mask_key_result r where r.schema_name = 'SGAS' and r.table_name = 'STUD' and r.column_name = 'STUD_REF_NO' and r.old_value_number = T.STUD_REF_NO),STUD_REF_NO)
+SQLCODE = -12899 SQL ERROR = ORA-12899: value too large for column "SGAS"."PAYMENT_INSTALMENT"."PAYEE_ADDRL2" (actual: 31, maximum: 30)
+28-NOV-16 16.26.38.480639000 +00:00Table processed for enable_triggers: ADI_JOURNAL_AUD
+28-NOV-16 16.26.38.497093000 +00:00Table processed for enable_triggers: ADJUST
+28-NOV-16 16.26.38.602782000 +00:00Table processed for enable_triggers: APPLIC_REG
+28-NOV-16 16.26.38.709311000 +00:00Table processed for enable_triggers: ATTENDANCE_DATA_RECEIVED
+28-NOV-16 16.26.38.736395000 +00:00Table processed for enable_triggers: AUTHENTICATE_STUD
+28-NOV-16 16.26.38.748744000 +00:00Table processed for enable_triggers: AUTHENTICATE_STUD_AUD
+28-NOV-16 16.26.38.788855000 +00:00Table processed for enable_triggers: AWARD
+28-NOV-16 16.26.38.804866000 +00:00Table processed for enable_triggers: AWARD_AUD
+28-NOV-16 16.26.38.830644000 +00:00Table processed for enable_triggers: AWARD_AUD_E56
+28-NOV-16 16.26.38.841945000 +00:00Table processed for enable_triggers: AWARD_INSTALMENT_AUD
+28-NOV-16 16.26.38.860296000 +00:00Table processed for enable_triggers: AWARD_LETTER_ERRORS
+28-NOV-16 16.26.38.876213000 +00:00Table processed for enable_triggers: BANK_CHANGE_EXC
+28-NOV-16 16.26.38.885430000 +00:00Table processed for enable_triggers: BATCH_RECALC
+28-NOV-16 16.26.38.897798000 +00:00Table processed for enable_triggers: BENEFACTOR_AUD
+28-NOV-16 16.26.38.909853000 +00:00Table processed for enable_triggers: BENEFACTOR_DEPENDANT_AUD
+28-NOV-16 16.26.38.921818000 +00:00Table processed for enable_triggers: BENEFACTOR_INCOME_AUD
+28-NOV-16 16.26.38.942182000 +00:00Table processed for enable_triggers: COC_TASKS
+28-NOV-16 16.26.38.953237000 +00:00Table processed for enable_triggers: COMPLETED_SHWAP
+28-NOV-16 16.26.38.980499000 +00:00Table processed for enable_triggers: COMPLETE_TASK_DATA
+28-NOV-16 16.26.39.029347000 +00:00Table processed for enable_triggers: COMPLETE_WEB_APPLICATIONS
+28-NOV-16 16.26.39.040636000 +00:00Table processed for enable_triggers: CORRES
+28-NOV-16 16.26.39.053213000 +00:00Table processed for enable_triggers: COUNTRY_AUD
+28-NOV-16 16.26.39.069486000 +00:00Table processed for enable_triggers: DSA_ALLOWANCE_AUD
+28-NOV-16 16.26.39.111427000 +00:00Table processed for enable_triggers: DSA_APPLICATION
+28-NOV-16 16.26.39.123380000 +00:00Table processed for enable_triggers: DSA_APPLICATION_AUD
+28-NOV-16 16.26.39.135450000 +00:00Table processed for enable_triggers: DSA_CATEGORY_AUD
+28-NOV-16 16.26.39.147823000 +00:00Table processed for enable_triggers: DSA_PAYMENT_AUD
+28-NOV-16 16.26.39.161287000 +00:00Table processed for enable_triggers: EDM_IMAGES
+28-NOV-16 16.26.39.180352000 +00:00Table processed for enable_triggers: EDOC_ACTIVE_TASK_LIST
+28-NOV-16 16.26.39.190692000 +00:00Table processed for enable_triggers: EDOC_ALL_TASK_LIST
+28-NOV-16 16.26.39.200667000 +00:00Table processed for enable_triggers: EMAIL_MPHONE_CHANGE_EXC
+28-NOV-16 16.26.39.226105000 +00:00Table processed for enable_triggers: FEE_LOAN_TRANSACTION
+28-NOV-16 16.26.39.239835000 +00:00Table processed for enable_triggers: FEE_PAYMENT_DATE_AUD
+28-NOV-16 16.26.39.252264000 +00:00Table processed for enable_triggers: FINANCE_REVERSAL_JOURNAL_AUD
+28-NOV-16 16.26.39.261631000 +00:00Table processed for enable_triggers: FIX_TASKS
+28-NOV-16 16.26.39.278482000 +00:00Table processed for enable_triggers: HOME_ADDR_CHANGE_EXC
+28-NOV-16 16.26.39.290803000 +00:00Table processed for enable_triggers: JA_CASE_AUD
+28-NOV-16 16.26.39.305111000 +00:00Table processed for enable_triggers: LOAN_CONTACTS_CHANGE_EXC
+28-NOV-16 16.26.39.340661000 +00:00Table processed for enable_triggers: LR_PROV_INCOME
+28-NOV-16 16.26.39.363661000 +00:00Table processed for enable_triggers: NMSB_SPEC_ARR
+28-NOV-16 16.26.39.377248000 +00:00Table processed for enable_triggers: NOMINEE_AUD
+28-NOV-16 16.26.39.390369000 +00:00Table processed for enable_triggers: NON_AWARD_PAYMENT_DATE_AUD
+28-NOV-16 16.26.39.405470000 +00:00Table processed for enable_triggers: ONLINE_APP_STATUS_WEB
+28-NOV-16 16.26.39.416514000 +00:00Table processed for enable_triggers: OTHER_CHANGE_EXC
+28-NOV-16 16.26.39.448499000 +00:00Table processed for enable_triggers: PASSWORD_LETTER_REQUEST
+28-NOV-16 16.26.39.465624000 +00:00Table processed for enable_triggers: PAYEE_AUD
+28-NOV-16 16.26.39.477609000 +00:00Table processed for enable_triggers: PAYEE_PAYMENT_AUD
+28-NOV-16 16.26.39.492475000 +00:00Table processed for enable_triggers: PAYMENT_ERRORS
+28-NOV-16 16.26.39.505762000 +00:00Table processed for enable_triggers: PAYMENT_ERRORS_TEMP
+28-NOV-16 16.26.39.536233000 +00:00Table processed for enable_triggers: PAYMENT_INSTALMENT
+28-NOV-16 16.26.39.551927000 +00:00Table processed for enable_triggers: PAYMENT_INSTALMENT_AUD
+28-NOV-16 16.26.39.583064000 +00:00Table processed for enable_triggers: PAYMENT_RETURNS
+28-NOV-16 16.26.39.600068000 +00:00Table processed for enable_triggers: PAYMENT_RETURNS_LOAD
+28-NOV-16 16.26.39.615701000 +00:00Table processed for enable_triggers: PAYMENT_RETURN_ERRORS
+28-NOV-16 16.26.39.651085000 +00:00Table processed for enable_triggers: PROCESS_INSTANCE_APP_G28
+28-NOV-16 16.26.39.670108000 +00:00Table processed for enable_triggers: PROCESS_INSTANCE_DATA
+28-NOV-16 16.26.39.687015000 +00:00Table processed for enable_triggers: PROCESS_INSTANCE_DATA_RESTORE
+28-NOV-16 16.26.39.704559000 +00:00Table processed for enable_triggers: PT_STUD_DEPENDANT
+28-NOV-16 16.26.39.726201000 +00:00Table processed for enable_triggers: PT_STUD_INCOME
+28-NOV-16 16.26.39.741686000 +00:00Table processed for enable_triggers: QA_CASES
+28-NOV-16 16.26.39.760744000 +00:00Table processed for enable_triggers: RUK_AWARD
+28-NOV-16 16.26.39.774702000 +00:00Table processed for enable_triggers: SCOAP_BATCHES_AUD
+28-NOV-16 16.26.39.791003000 +00:00Table processed for enable_triggers: SHORT_APP_STUD_INFO
+28-NOV-16 16.26.39.814583000 +00:00Table processed for enable_triggers: SHWAP
+28-NOV-16 16.26.39.847479000 +00:00Table processed for enable_triggers: SHWAP_2015
+28-NOV-16 16.26.39.871551000 +00:00Table processed for enable_triggers: SHWAP_CHECK
+28-NOV-16 16.26.39.888326000 +00:00Table processed for enable_triggers: SLC_ERRORS
+28-NOV-16 16.26.39.902771000 +00:00Table processed for enable_triggers: STEPS_QA_DATA_AUD
+28-NOV-16 16.26.39.943821000 +00:00Table processed for enable_triggers: STUD_APP_PROG
+28-NOV-16 16.26.39.957948000 +00:00Table processed for enable_triggers: STUD_APP_PROG_AUD
+28-NOV-16 16.26.39.972631000 +00:00Table processed for enable_triggers: STUD_APP_PROG_WEB
+28-NOV-16 16.26.39.988741000 +00:00Table processed for enable_triggers: STUD_AUD
+28-NOV-16 16.26.40.008058000 +00:00Table processed for enable_triggers: STUD_CONT_DETAILS
+28-NOV-16 16.26.40.033855000 +00:00Table processed for enable_triggers: STUD_CONT_DETAILS_AUD
+28-NOV-16 16.26.40.047207000 +00:00Table processed for enable_triggers: STUD_CONT_DETAILS_WEB
+28-NOV-16 16.26.40.151235000 +00:00Table processed for enable_triggers: STUD_CRSE_YEAR
+28-NOV-16 16.26.40.165941000 +00:00Table processed for enable_triggers: STUD_CRSE_YEAR_AUD
+28-NOV-16 16.26.40.182434000 +00:00Table processed for enable_triggers: STUD_CRSE_YEAR_WEB
+28-NOV-16 16.26.40.205028000 +00:00Table processed for enable_triggers: STUD_DEPENDANT
+28-NOV-16 16.26.40.218807000 +00:00Table processed for enable_triggers: STUD_DEPENDANT_AUD
+28-NOV-16 16.26.40.242595000 +00:00Table processed for enable_triggers: STUD_HOME_ADDR
+28-NOV-16 16.26.40.256477000 +00:00Table processed for enable_triggers: STUD_HOME_ADDR_AUD
+28-NOV-16 16.26.40.268352000 +00:00Table processed for enable_triggers: STUD_HOME_ADDR_WEB
+28-NOV-16 16.26.40.302018000 +00:00Table processed for enable_triggers: STUD_MESSAGE
+28-NOV-16 16.26.40.351576000 +00:00Table processed for enable_triggers: STUD_NOMINEE
+28-NOV-16 16.26.40.367120000 +00:00Table processed for enable_triggers: STUD_NOMINEE_AUD
+28-NOV-16 16.26.40.380149000 +00:00Table processed for enable_triggers: STUD_NOTES
+28-NOV-16 16.26.40.392525000 +00:00Table processed for enable_triggers: STUD_NOTES_TMP
+28-NOV-16 16.26.40.519895000 +00:00Table processed for enable_triggers: STUD_SESSION
+28-NOV-16 16.26.40.537504000 +00:00Table processed for enable_triggers: STUD_SESSION_AUD
+28-NOV-16 16.26.40.554807000 +00:00Table processed for enable_triggers: STUD_SESSION_WEB
+28-NOV-16 16.26.40.581832000 +00:00Table processed for enable_triggers: STUD_TERM_ADDR
+28-NOV-16 16.26.40.596877000 +00:00Table processed for enable_triggers: STUD_TERM_ADDR_AUD
+28-NOV-16 16.26.40.610738000 +00:00Table processed for enable_triggers: STUD_TERM_ADDR_WEB
+28-NOV-16 16.26.40.622808000 +00:00Table processed for enable_triggers: STUD_TRACK
+28-NOV-16 16.26.40.638943000 +00:00Table processed for enable_triggers: STUD_TRAV_PROG
+28-NOV-16 16.26.40.652244000 +00:00Table processed for enable_triggers: STUD_TRAV_PROG_WEB
+28-NOV-16 16.26.40.671440000 +00:00Table processed for enable_triggers: STUD_WEB
+28-NOV-16 16.26.40.689658000 +00:00Table processed for enable_triggers: SUSPEND
+28-NOV-16 16.26.40.705654000 +00:00Table processed for enable_triggers: SW_2016_SHWAP_MASTER
+28-NOV-16 16.26.40.715726000 +00:00Table processed for enable_triggers: TELEPHONY
+28-NOV-16 16.26.40.725969000 +00:00Table processed for enable_triggers: TELEPHONY_MIS
+28-NOV-16 16.26.40.738590000 +00:00Table processed for enable_triggers: TERM_ADDR_CHANGE_EXC
+28-NOV-16 16.26.40.750561000 +00:00Table processed for enable_triggers: TITLE_NAME_CHANGE_EXC
+28-NOV-16 16.26.40.764698000 +00:00Table processed for enable_triggers: WEB_ADDR_CHGE_DETS
+28-NOV-16 16.26.40.791991000 +00:00Table processed for enable_triggers: WEB_SHWAP
+28-NOV-16 16.26.40.866310000 +00:00Table processed for enable_triggers: STUD
+28-NOV-16 16.26.40.867484000 +00:00Table processed for create_indexes: ADI_JOURNAL_AUD
+28-NOV-16 16.26.40.958613000 +00:00Table processed for create_indexes: ADJUST
+28-NOV-16 16.26.40.989361000 +00:00Table processed for create_indexes: APPLIC_REG
+28-NOV-16 16.28.16.513422000 +00:00Table processed for create_indexes: ATTENDANCE_DATA_RECEIVED
+28-NOV-16 16.28.16.513801000 +00:00Table processed for create_indexes: AUTHENTICATE_STUD
+28-NOV-16 16.28.16.514004000 +00:00Table processed for create_indexes: AUTHENTICATE_STUD_AUD
+28-NOV-16 16.28.35.008360000 +00:00Table processed for create_indexes: AWARD
+28-NOV-16 16.28.35.008789000 +00:00Table processed for create_indexes: AWARD_AUD
+28-NOV-16 16.28.35.008988000 +00:00Table processed for create_indexes: AWARD_AUD_E56
+28-NOV-16 16.28.35.009201000 +00:00Table processed for create_indexes: AWARD_INSTALMENT_AUD
+28-NOV-16 16.28.35.009381000 +00:00Table processed for create_indexes: AWARD_LETTER_ERRORS
+28-NOV-16 16.28.35.009556000 +00:00Table processed for create_indexes: BANK_CHANGE_EXC
+28-NOV-16 16.28.35.009727000 +00:00Table processed for create_indexes: BATCH_RECALC
+28-NOV-16 16.28.35.009902000 +00:00Table processed for create_indexes: BENEFACTOR_AUD
+28-NOV-16 16.28.35.010073000 +00:00Table processed for create_indexes: BENEFACTOR_DEPENDANT_AUD
+28-NOV-16 16.28.35.010237000 +00:00Table processed for create_indexes: BENEFACTOR_INCOME_AUD
+28-NOV-16 16.28.35.010406000 +00:00Table processed for create_indexes: COC_TASKS
+28-NOV-16 16.28.35.010577000 +00:00Table processed for create_indexes: COMPLETED_SHWAP
+28-NOV-16 16.28.35.010745000 +00:00Table processed for create_indexes: COMPLETE_TASK_DATA
+28-NOV-16 16.28.35.047693000 +00:00Table processed for create_indexes: COMPLETE_WEB_APPLICATIONS
+28-NOV-16 16.28.35.078234000 +00:00Table processed for create_indexes: CORRES
+28-NOV-16 16.28.35.078673000 +00:00Table processed for create_indexes: COUNTRY_AUD
+28-NOV-16 16.28.35.078870000 +00:00Table processed for create_indexes: DSA_ALLOWANCE_AUD
+28-NOV-16 16.28.35.079098000 +00:00Table processed for create_indexes: DSA_APPLICATION
+28-NOV-16 16.28.35.079293000 +00:00Table processed for create_indexes: DSA_APPLICATION_AUD
+28-NOV-16 16.28.35.079480000 +00:00Table processed for create_indexes: DSA_CATEGORY_AUD
+28-NOV-16 16.28.35.079660000 +00:00Table processed for create_indexes: DSA_PAYMENT_AUD
+28-NOV-16 16.29.18.034458000 +00:00Table processed for create_indexes: EDM_IMAGES
+28-NOV-16 16.29.18.034842000 +00:00Table processed for create_indexes: EDOC_ACTIVE_TASK_LIST
+28-NOV-16 16.29.18.035032000 +00:00Table processed for create_indexes: EDOC_ALL_TASK_LIST
+28-NOV-16 16.29.18.186959000 +00:00Table processed for create_indexes: EMAIL_MPHONE_CHANGE_EXC
+28-NOV-16 16.29.18.521581000 +00:00Table processed for create_indexes: FEE_LOAN_TRANSACTION
+28-NOV-16 16.29.18.521944000 +00:00Table processed for create_indexes: FEE_PAYMENT_DATE_AUD
+28-NOV-16 16.29.18.522144000 +00:00Table processed for create_indexes: FINANCE_REVERSAL_JOURNAL_AUD
+28-NOV-16 16.29.18.522359000 +00:00Table processed for create_indexes: FIX_TASKS
+28-NOV-16 16.29.18.522539000 +00:00Table processed for create_indexes: HOME_ADDR_CHANGE_EXC
+28-NOV-16 16.29.18.522712000 +00:00Table processed for create_indexes: JA_CASE_AUD
+28-NOV-16 16.29.18.522884000 +00:00Table processed for create_indexes: LOAN_CONTACTS_CHANGE_EXC
+28-NOV-16 16.29.18.523054000 +00:00Table processed for create_indexes: LR_PROV_INCOME
+28-NOV-16 16.29.18.523225000 +00:00Table processed for create_indexes: NMSB_SPEC_ARR
+28-NOV-16 16.29.18.523392000 +00:00Table processed for create_indexes: NOMINEE_AUD
+28-NOV-16 16.29.18.523554000 +00:00Table processed for create_indexes: NON_AWARD_PAYMENT_DATE_AUD
+28-NOV-16 16.29.18.523723000 +00:00Table processed for create_indexes: ONLINE_APP_STATUS_WEB
+28-NOV-16 16.29.18.523891000 +00:00Table processed for create_indexes: OTHER_CHANGE_EXC
+28-NOV-16 16.29.18.524052000 +00:00Table processed for create_indexes: PASSWORD_LETTER_REQUEST
+28-NOV-16 16.29.18.524220000 +00:00Table processed for create_indexes: PAYEE_AUD
+28-NOV-16 16.29.18.524387000 +00:00Table processed for create_indexes: PAYEE_PAYMENT_AUD
+28-NOV-16 16.29.18.524549000 +00:00Table processed for create_indexes: PAYMENT_ERRORS
+28-NOV-16 16.29.18.524715000 +00:00Table processed for create_indexes: PAYMENT_ERRORS_TEMP
+28-NOV-16 16.29.56.760168000 +00:00Table processed for create_indexes: PAYMENT_INSTALMENT
+28-NOV-16 16.29.56.760628000 +00:00Table processed for create_indexes: PAYMENT_INSTALMENT_AUD
+28-NOV-16 16.29.56.760811000 +00:00Table processed for create_indexes: PAYMENT_RETURNS
+28-NOV-16 16.29.56.760993000 +00:00Table processed for create_indexes: PAYMENT_RETURNS_LOAD
+28-NOV-16 16.29.56.761170000 +00:00Table processed for create_indexes: PAYMENT_RETURN_ERRORS
+28-NOV-16 16.29.56.761340000 +00:00Table processed for create_indexes: PROCESS_INSTANCE_APP_G28
+28-NOV-16 16.31.27.212598000 +00:00Table processed for create_indexes: PROCESS_INSTANCE_DATA
+28-NOV-16 16.31.27.212958000 +00:00Table processed for create_indexes: PROCESS_INSTANCE_DATA_RESTORE
+28-NOV-16 16.31.27.241480000 +00:00Table processed for create_indexes: PT_STUD_DEPENDANT
+28-NOV-16 16.31.27.276192000 +00:00Table processed for create_indexes: PT_STUD_INCOME
+28-NOV-16 16.31.27.276523000 +00:00Table processed for create_indexes: QA_CASES
+28-NOV-16 16.31.27.276707000 +00:00Table processed for create_indexes: RUK_AWARD
+28-NOV-16 16.31.27.276906000 +00:00Table processed for create_indexes: SCOAP_BATCHES_AUD
+28-NOV-16 16.31.28.822127000 +00:00Table processed for create_indexes: SHORT_APP_STUD_INFO
+28-NOV-16 16.31.30.106767000 +00:00Table processed for create_indexes: SHWAP
+28-NOV-16 16.31.30.107070000 +00:00Table processed for create_indexes: SHWAP_2015
+28-NOV-16 16.31.30.107255000 +00:00Table processed for create_indexes: SHWAP_CHECK
+28-NOV-16 16.31.30.107491000 +00:00Table processed for create_indexes: SLC_ERRORS
+28-NOV-16 16.31.30.107669000 +00:00Table processed for create_indexes: STEPS_QA_DATA_AUD
+28-NOV-16 16.31.34.548653000 +00:00Table processed for create_indexes: STUD_APP_PROG
+28-NOV-16 16.31.34.548989000 +00:00Table processed for create_indexes: STUD_APP_PROG_AUD
+28-NOV-16 16.31.40.713696000 +00:00Table processed for create_indexes: STUD_APP_PROG_WEB
+28-NOV-16 16.31.40.714067000 +00:00Table processed for create_indexes: STUD_AUD
+28-NOV-16 16.31.46.811813000 +00:00Table processed for create_indexes: STUD_CONT_DETAILS
+28-NOV-16 16.31.46.812289000 +00:00Table processed for create_indexes: STUD_CONT_DETAILS_AUD
+28-NOV-16 16.31.46.812591000 +00:00Table processed for create_indexes: STUD_CONT_DETAILS_WEB
+28-NOV-16 16.32.00.861722000 +00:00Table processed for create_indexes: STUD_CRSE_YEAR
+28-NOV-16 16.32.00.862103000 +00:00Table processed for create_indexes: STUD_CRSE_YEAR_AUD
+28-NOV-16 16.32.20.857178000 +00:00Table processed for create_indexes: STUD_CRSE_YEAR_WEB
+28-NOV-16 16.32.21.313142000 +00:00Table processed for create_indexes: STUD_DEPENDANT
+28-NOV-16 16.32.21.313527000 +00:00Table processed for create_indexes: STUD_DEPENDANT_AUD
+28-NOV-16 16.32.24.860144000 +00:00Table processed for create_indexes: STUD_HOME_ADDR
+28-NOV-16 16.32.24.860542000 +00:00Table processed for create_indexes: STUD_HOME_ADDR_AUD
+28-NOV-16 16.32.36.596663000 +00:00Table processed for create_indexes: STUD_HOME_ADDR_WEB
+28-NOV-16 16.32.36.924626000 +00:00Table processed for create_indexes: STUD_MESSAGE
+28-NOV-16 16.32.36.925050000 +00:00Table processed for create_indexes: STUD_NOMINEE
+28-NOV-16 16.32.36.925257000 +00:00Table processed for create_indexes: STUD_NOMINEE_AUD
+28-NOV-16 16.32.49.946528000 +00:00Table processed for create_indexes: STUD_NOTES
+28-NOV-16 16.32.49.946851000 +00:00Table processed for create_indexes: STUD_NOTES_TMP
+28-NOV-16 16.32.58.512234000 +00:00Table processed for create_indexes: STUD_SESSION
+28-NOV-16 16.32.58.512630000 +00:00Table processed for create_indexes: STUD_SESSION_AUD
+28-NOV-16 16.33.15.692533000 +00:00Table processed for create_indexes: STUD_SESSION_WEB
+28-NOV-16 16.33.19.545005000 +00:00Table processed for create_indexes: STUD_TERM_ADDR
+28-NOV-16 16.33.19.545364000 +00:00Table processed for create_indexes: STUD_TERM_ADDR_AUD
+28-NOV-16 16.33.26.020545000 +00:00Table processed for create_indexes: STUD_TERM_ADDR_WEB
+28-NOV-16 16.33.26.043837000 +00:00Table processed for create_indexes: STUD_TRACK
+28-NOV-16 16.33.26.069996000 +00:00Table processed for create_indexes: STUD_TRAV_PROG
+28-NOV-16 16.33.26.998587000 +00:00Table processed for create_indexes: STUD_TRAV_PROG_WEB
+28-NOV-16 16.34.01.328555000 +00:00Table processed for create_indexes: STUD_WEB
+28-NOV-16 16.34.01.328993000 +00:00Table processed for create_indexes: SUSPEND
+28-NOV-16 16.34.01.329176000 +00:00Table processed for create_indexes: SW_2016_SHWAP_MASTER
+28-NOV-16 16.34.01.329488000 +00:00Table processed for create_indexes: TELEPHONY
+28-NOV-16 16.34.01.455381000 +00:00Table processed for create_indexes: TELEPHONY_MIS
+28-NOV-16 16.34.01.455816000 +00:00Table processed for create_indexes: TERM_ADDR_CHANGE_EXC
+28-NOV-16 16.34.01.456004000 +00:00Table processed for create_indexes: TITLE_NAME_CHANGE_EXC
+28-NOV-16 16.34.01.456180000 +00:00Table processed for create_indexes: WEB_ADDR_CHGE_DETS
+28-NOV-16 16.34.01.456358000 +00:00Table processed for create_indexes: WEB_SHWAP
+28-NOV-16 16.34.06.927205000 +00:00Table processed for create_indexes: STUD
+28-NOV-16 16.34.06.933778000 +00:00enable_constraints being processed: ALTER TABLE SGAS.STUD ENABLE CONSTRAINT P_ST
+28-NOV-16 16.34.07.957992000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.STUD ENABLE CONSTRAINT P_ST
+28-NOV-16 16.34.07.958110000 +00:00enable_constraints being processed: ALTER TABLE SGAS.STUD_CONT_DETAILS ENABLE CONSTRAINT STUD_CONT_DETAILS_PK
+28-NOV-16 16.34.08.014651000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.STUD_CONT_DETAILS ENABLE CONSTRAINT STUD_CONT_DETAILS_PK
+28-NOV-16 16.34.08.014747000 +00:00enable_constraints being processed: ALTER TABLE SGAS.STUD_TERM_ADDR ENABLE CONSTRAINT P_STT
+28-NOV-16 16.34.08.047809000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.STUD_TERM_ADDR ENABLE CONSTRAINT P_STT
+28-NOV-16 16.34.08.047912000 +00:00enable_constraints being processed: ALTER TABLE SGAS.STUD_HOME_ADDR ENABLE CONSTRAINT P_STH
+28-NOV-16 16.34.08.072570000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.STUD_HOME_ADDR ENABLE CONSTRAINT P_STH
+28-NOV-16 16.34.08.072653000 +00:00enable_constraints being processed: ALTER TABLE SGAS.STUD_APP_PROG ENABLE CONSTRAINT STUD_APP_PROG_PK
+28-NOV-16 16.34.10.027864000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.STUD_APP_PROG ENABLE CONSTRAINT STUD_APP_PROG_PK
+28-NOV-16 16.34.10.027974000 +00:00enable_constraints being processed: ALTER TABLE SGAS.STUD_TRACK ENABLE CONSTRAINT P_STK
+28-NOV-16 16.34.10.046870000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.STUD_TRACK ENABLE CONSTRAINT P_STK
+28-NOV-16 16.34.10.046978000 +00:00enable_constraints being processed: ALTER TABLE SGAS.PROCESS_INSTANCE_DATA_RESTORE ENABLE CONSTRAINT SYS_C00117633
+28-NOV-16 16.34.11.471854000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.PROCESS_INSTANCE_DATA_RESTORE ENABLE CONSTRAINT SYS_C00117633
+28-NOV-16 16.34.11.471971000 +00:00enable_constraints being processed: ALTER TABLE SGAS.PROCESS_INSTANCE_APP_G28 ENABLE CONSTRAINT SYS_C00117714
+28-NOV-16 16.34.11.597400000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.PROCESS_INSTANCE_APP_G28 ENABLE CONSTRAINT SYS_C00117714
+28-NOV-16 16.34.11.597510000 +00:00enable_constraints being processed: ALTER TABLE SGAS.LOAN_CONTACTS_CHANGE_EXC ENABLE CONSTRAINT SYS_C0074893
+28-NOV-16 16.34.11.743218000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.LOAN_CONTACTS_CHANGE_EXC ENABLE CONSTRAINT SYS_C0074893
+28-NOV-16 16.34.11.743331000 +00:00enable_constraints being processed: ALTER TABLE SGAS.ATTENDANCE_DATA_RECEIVED ENABLE CONSTRAINT SYS_C0076829
+28-NOV-16 16.35.15.588006000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.ATTENDANCE_DATA_RECEIVED ENABLE CONSTRAINT SYS_C0076829
+28-NOV-16 16.35.15.588124000 +00:00enable_constraints being processed: ALTER TABLE SGAS.ATTENDANCE_DATA_RECEIVED ENABLE CONSTRAINT F1_ATT_RECD
+28-NOV-16 16.35.54.199773000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.ATTENDANCE_DATA_RECEIVED ENABLE CONSTRAINT F1_ATT_RECD
+28-NOV-16 16.35.54.199870000 +00:00enable_constraints being processed: ALTER TABLE SGAS.EMAIL_MPHONE_CHANGE_EXC ENABLE CONSTRAINT SYS_C0074887
+28-NOV-16 16.35.54.235708000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.EMAIL_MPHONE_CHANGE_EXC ENABLE CONSTRAINT SYS_C0074887
+28-NOV-16 16.35.54.235810000 +00:00enable_constraints being processed: ALTER TABLE SGAS.TITLE_NAME_CHANGE_EXC ENABLE CONSTRAINT SYS_C0074911
+28-NOV-16 16.35.54.268441000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.TITLE_NAME_CHANGE_EXC ENABLE CONSTRAINT SYS_C0074911
+28-NOV-16 16.35.54.268551000 +00:00enable_constraints being processed: ALTER TABLE SGAS.PROCESS_INSTANCE_DATA ENABLE CONSTRAINT SYS_C0061205
+28-NOV-16 16.36.34.625385000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.PROCESS_INSTANCE_DATA ENABLE CONSTRAINT SYS_C0061205
+28-NOV-16 16.36.34.625520000 +00:00enable_constraints being processed: ALTER TABLE SGAS.TERM_ADDR_CHANGE_EXC ENABLE CONSTRAINT SYS_C0074905
+28-NOV-16 16.36.34.651082000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.TERM_ADDR_CHANGE_EXC ENABLE CONSTRAINT SYS_C0074905
+28-NOV-16 16.36.34.651168000 +00:00enable_constraints being processed: ALTER TABLE SGAS.SW_2016_SHWAP_MASTER ENABLE CONSTRAINT SYS_C00202395
+28-NOV-16 16.36.35.513568000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.SW_2016_SHWAP_MASTER ENABLE CONSTRAINT SYS_C00202395
+28-NOV-16 16.36.35.513678000 +00:00enable_constraints being processed: ALTER TABLE SGAS.HOME_ADDR_CHANGE_EXC ENABLE CONSTRAINT SYS_C0074889
+28-NOV-16 16.36.35.538173000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.HOME_ADDR_CHANGE_EXC ENABLE CONSTRAINT SYS_C0074889
+28-NOV-16 16.36.35.538268000 +00:00enable_constraints being processed: ALTER TABLE SGAS.FEE_LOAN_TRANSACTION ENABLE CONSTRAINT SYS_C0090886
+28-NOV-16 16.36.35.770371000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.FEE_LOAN_TRANSACTION ENABLE CONSTRAINT SYS_C0090886
+28-NOV-16 16.36.35.770458000 +00:00enable_constraints being processed: ALTER TABLE SGAS.WEB_ADDR_CHGE_DETS ENABLE CONSTRAINT SYS_C0067188
+28-NOV-16 16.36.40.721103000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.WEB_ADDR_CHGE_DETS ENABLE CONSTRAINT SYS_C0067188
+28-NOV-16 16.36.40.721231000 +00:00enable_constraints being processed: ALTER TABLE SGAS.PAYMENT_INSTALMENT ENABLE CONSTRAINT SYS_C0060579
+28-NOV-16 16.37.01.711847000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.PAYMENT_INSTALMENT ENABLE CONSTRAINT SYS_C0060579
+28-NOV-16 16.37.01.711938000 +00:00enable_constraints being processed: ALTER TABLE SGAS.COMPLETE_TASK_DATA ENABLE CONSTRAINT SYS_C0061236
+28-NOV-16 16.37.17.214241000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.COMPLETE_TASK_DATA ENABLE CONSTRAINT SYS_C0061236
+28-NOV-16 16.37.17.214345000 +00:00enable_constraints being processed: ALTER TABLE SGAS.STUD_CONT_DETAILS ENABLE CONSTRAINT SYS_C0060168
+28-NOV-16 16.37.17.236156000 +00:00enable_constraints processed complete: ALTER TABLE SGAS.STUD_CONT_DETAILS ENABLE CONSTRAINT SYS_C0060168
+28-NOV-16 16.37.17.236265000 +00:00enable_constraints being processed: ALTER TABLE SGAS.STUD_CONT_DETAILS ENABLE CONSTRAINT F1_STCD
+SQLCODE = -2298 SQL ERROR = ORA-02298: cannot validate (SGAS.F1_STCD) - parent keys not found
+ORA-12899: value too large for column "SGAS"."PAYMENT_INSTALMENT"."PAYEE_ADDRL2" (actual: 31, maximum: 30)
+28-NOV-16 16.37.18.273084000 +00:00enable_constraints completed

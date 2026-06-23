@@ -1,0 +1,4 @@
+Update SGAS.DISABILITY_TYPE set LEGACY_ID = '57' WHERE DESCRIPT = 'Hearing impairment';
+Update SGAS.DISABILITY_TYPE set LEGACY_ID = '58' WHERE DESCRIPT = 'Visual impairment';
+
+COMMIT;

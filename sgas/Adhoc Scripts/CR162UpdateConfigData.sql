@@ -1,0 +1,5 @@
+UPDATE sgas.config_data
+set NVAL = 50
+WHERE ITEM_NAME = 'NO_DAYS_ONGOING_ATTEND';
+
+COMMIT;

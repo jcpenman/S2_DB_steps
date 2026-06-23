@@ -1,0 +1,7 @@
+\\192.168.186.3\dev_share\Database\steps\ILA500\ILA500 Discoverer\ILA510_EUL.eex:A Business Area Grant has not been imported because it depends on the Eul User with name 'ILA500_EUL'
+\\192.168.186.3\dev_share\Database\steps\ILA500\ILA500 Discoverer\ILA510_EUL.eex:A Business Area Grant has not been imported because it depends on the Eul User with name 'ILA510_EUL'
+\\192.168.186.3\dev_share\Database\steps\ILA500\ILA500 Discoverer\ILA510_EUL.eex:An imported Date Hierarchy had display name 'Default Date Hierarchy' renamed to 'Default Date Hierarchy 1'
+\\192.168.186.3\dev_share\Database\steps\ILA500\ILA500 Discoverer\ILA510_EUL.eex:An imported Date Hierarchy had identifier 'EUL_DEFAULT_DATE_HIERARCHY' renamed to 'EUL_DEFAULT_DATE_HIERARCHY1'
+\\192.168.186.3\dev_share\Database\steps\ILA500\ILA500 Discoverer\ILA510_EUL.eex:An imported Date Hierarchy had display name 'Default Date Hierarchy 1' renamed to 'Default Date Hierarchy 1 1'
+\\192.168.186.3\dev_share\Database\steps\ILA500\ILA500 Discoverer\ILA510_EUL.eex:An imported Date Hierarchy had identifier 'EUL_DEFAULT_DATE_HIERARCHY1' renamed to 'EUL_DEFAULT_DATE_HIERARCHY11'
+Import completed successfully.
